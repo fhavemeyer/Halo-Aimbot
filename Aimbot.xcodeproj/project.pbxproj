@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A724AA180CFB8700EECCDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A724A9180CFB8700EECCDF /* Cocoa.framework */; };
+		50A724B4180CFB8700EECCDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50A724B2180CFB8700EECCDF /* InfoPlist.strings */; };
+		50A724B6180CFB8700EECCDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A724B5180CFB8700EECCDF /* main.m */; };
+		50A724BA180CFB8700EECCDF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 50A724B8180CFB8700EECCDF /* Credits.rtf */; };
+		50A724BD180CFB8700EECCDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A724BC180CFB8700EECCDF /* AppDelegate.m */; };
+		50A724C0180CFB8700EECCDF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A724BE180CFB8700EECCDF /* MainMenu.xib */; };
+		50A724C2180CFB8700EECCDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A724C1180CFB8700EECCDF /* Images.xcassets */; };
+		50A724C9180CFB8800EECCDF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A724C8180CFB8800EECCDF /* XCTest.framework */; };
+		50A724CA180CFB8800EECCDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A724A9180CFB8700EECCDF /* Cocoa.framework */; };
+		50A724D2180CFB8800EECCDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50A724D0180CFB8800EECCDF /* InfoPlist.strings */; };
+		50A724D4180CFB8800EECCDF /* AimbotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A724D3180CFB8800EECCDF /* AimbotTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50A724CB180CFB8800EECCDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A7249E180CFB8700EECCDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A724A5180CFB8700EECCDF;
+			remoteInfo = Aimbot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50A724A6180CFB8700EECCDF /* Aimbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aimbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A724A9180CFB8700EECCDF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		50A724AC180CFB8700EECCDF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		50A724AD180CFB8700EECCDF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		50A724AE180CFB8700EECCDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50A724B1180CFB8700EECCDF /* Aimbot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aimbot-Info.plist"; sourceTree = "<group>"; };
+		50A724B3180CFB8700EECCDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50A724B5180CFB8700EECCDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50A724B7180CFB8700EECCDF /* Aimbot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aimbot-Prefix.pch"; sourceTree = "<group>"; };
+		50A724B9180CFB8700EECCDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		50A724BB180CFB8700EECCDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50A724BC180CFB8700EECCDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50A724BF180CFB8700EECCDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		50A724C1180CFB8700EECCDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50A724C7180CFB8800EECCDF /* AimbotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AimbotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A724C8180CFB8800EECCDF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		50A724CF180CFB8800EECCDF /* AimbotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AimbotTests-Info.plist"; sourceTree = "<group>"; };
+		50A724D1180CFB8800EECCDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50A724D3180CFB8800EECCDF /* AimbotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AimbotTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A724A3180CFB8700EECCDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A724AA180CFB8700EECCDF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A724C4180CFB8800EECCDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A724CA180CFB8800EECCDF /* Cocoa.framework in Frameworks */,
+				50A724C9180CFB8800EECCDF /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A7249D180CFB8700EECCDF = {
+			isa = PBXGroup;
+			children = (
+				50A724AF180CFB8700EECCDF /* Aimbot */,
+				50A724CD180CFB8800EECCDF /* AimbotTests */,
+				50A724A8180CFB8700EECCDF /* Frameworks */,
+				50A724A7180CFB8700EECCDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50A724A7180CFB8700EECCDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A724A6180CFB8700EECCDF /* Aimbot.app */,
+				50A724C7180CFB8800EECCDF /* AimbotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A724A8180CFB8700EECCDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50A724A9180CFB8700EECCDF /* Cocoa.framework */,
+				50A724C8180CFB8800EECCDF /* XCTest.framework */,
+				50A724AB180CFB8700EECCDF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50A724AB180CFB8700EECCDF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50A724AC180CFB8700EECCDF /* AppKit.framework */,
+				50A724AD180CFB8700EECCDF /* CoreData.framework */,
+				50A724AE180CFB8700EECCDF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		50A724AF180CFB8700EECCDF /* Aimbot */ = {
+			isa = PBXGroup;
+			children = (
+				50A724BB180CFB8700EECCDF /* AppDelegate.h */,
+				50A724BC180CFB8700EECCDF /* AppDelegate.m */,
+				50A724BE180CFB8700EECCDF /* MainMenu.xib */,
+				50A724C1180CFB8700EECCDF /* Images.xcassets */,
+				50A724B0180CFB8700EECCDF /* Supporting Files */,
+			);
+			path = Aimbot;
+			sourceTree = "<group>";
+		};
+		50A724B0180CFB8700EECCDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50A724B1180CFB8700EECCDF /* Aimbot-Info.plist */,
+				50A724B2180CFB8700EECCDF /* InfoPlist.strings */,
+				50A724B5180CFB8700EECCDF /* main.m */,
+				50A724B7180CFB8700EECCDF /* Aimbot-Prefix.pch */,
+				50A724B8180CFB8700EECCDF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50A724CD180CFB8800EECCDF /* AimbotTests */ = {
+			isa = PBXGroup;
+			children = (
+				50A724D3180CFB8800EECCDF /* AimbotTests.m */,
+				50A724CE180CFB8800EECCDF /* Supporting Files */,
+			);
+			path = AimbotTests;
+			sourceTree = "<group>";
+		};
+		50A724CE180CFB8800EECCDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50A724CF180CFB8800EECCDF /* AimbotTests-Info.plist */,
+				50A724D0180CFB8800EECCDF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A724A5180CFB8700EECCDF /* Aimbot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A724D7180CFB8800EECCDF /* Build configuration list for PBXNativeTarget "Aimbot" */;
+			buildPhases = (
+				50A724A2180CFB8700EECCDF /* Sources */,
+				50A724A3180CFB8700EECCDF /* Frameworks */,
+				50A724A4180CFB8700EECCDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aimbot;
+			productName = Aimbot;
+			productReference = 50A724A6180CFB8700EECCDF /* Aimbot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50A724C6180CFB8800EECCDF /* AimbotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A724DA180CFB8800EECCDF /* Build configuration list for PBXNativeTarget "AimbotTests" */;
+			buildPhases = (
+				50A724C3180CFB8800EECCDF /* Sources */,
+				50A724C4180CFB8800EECCDF /* Frameworks */,
+				50A724C5180CFB8800EECCDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A724CC180CFB8800EECCDF /* PBXTargetDependency */,
+			);
+			name = AimbotTests;
+			productName = AimbotTests;
+			productReference = 50A724C7180CFB8800EECCDF /* AimbotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A7249E180CFB8700EECCDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = sword;
+				TargetAttributes = {
+					50A724C6180CFB8800EECCDF = {
+						TestTargetID = 50A724A5180CFB8700EECCDF;
+					};
+				};
+			};
+			buildConfigurationList = 50A724A1180CFB8700EECCDF /* Build configuration list for PBXProject "Aimbot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50A7249D180CFB8700EECCDF;
+			productRefGroup = 50A724A7180CFB8700EECCDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A724A5180CFB8700EECCDF /* Aimbot */,
+				50A724C6180CFB8800EECCDF /* AimbotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A724A4180CFB8700EECCDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A724B4180CFB8700EECCDF /* InfoPlist.strings in Resources */,
+				50A724C2180CFB8700EECCDF /* Images.xcassets in Resources */,
+				50A724BA180CFB8700EECCDF /* Credits.rtf in Resources */,
+				50A724C0180CFB8700EECCDF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A724C5180CFB8800EECCDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A724D2180CFB8800EECCDF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A724A2180CFB8700EECCDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A724BD180CFB8700EECCDF /* AppDelegate.m in Sources */,
+				50A724B6180CFB8700EECCDF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A724C3180CFB8800EECCDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A724D4180CFB8800EECCDF /* AimbotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50A724CC180CFB8800EECCDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A724A5180CFB8700EECCDF /* Aimbot */;
+			targetProxy = 50A724CB180CFB8800EECCDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50A724B2180CFB8700EECCDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A724B3180CFB8700EECCDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50A724B8180CFB8700EECCDF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A724B9180CFB8700EECCDF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		50A724BE180CFB8700EECCDF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A724BF180CFB8700EECCDF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		50A724D0180CFB8800EECCDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A724D1180CFB8800EECCDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50A724D5180CFB8800EECCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		50A724D6180CFB8800EECCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		50A724D8180CFB8800EECCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aimbot/Aimbot-Prefix.pch";
+				INFOPLIST_FILE = "Aimbot/Aimbot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50A724D9180CFB8800EECCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aimbot/Aimbot-Prefix.pch";
+				INFOPLIST_FILE = "Aimbot/Aimbot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		50A724DB180CFB8800EECCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aimbot.app/Contents/MacOS/Aimbot";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aimbot/Aimbot-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AimbotTests/AimbotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		50A724DC180CFB8800EECCDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Aimbot.app/Contents/MacOS/Aimbot";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aimbot/Aimbot-Prefix.pch";
+				INFOPLIST_FILE = "AimbotTests/AimbotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A724A1180CFB8700EECCDF /* Build configuration list for PBXProject "Aimbot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A724D5180CFB8800EECCDF /* Debug */,
+				50A724D6180CFB8800EECCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A724D7180CFB8800EECCDF /* Build configuration list for PBXNativeTarget "Aimbot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A724D8180CFB8800EECCDF /* Debug */,
+				50A724D9180CFB8800EECCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50A724DA180CFB8800EECCDF /* Build configuration list for PBXNativeTarget "AimbotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A724DB180CFB8800EECCDF /* Debug */,
+				50A724DC180CFB8800EECCDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50A7249E180CFB8700EECCDF /* Project object */;
+}
