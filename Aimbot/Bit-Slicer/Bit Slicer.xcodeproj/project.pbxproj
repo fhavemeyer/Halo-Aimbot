@@ -1,0 +1,2199 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		770136EA192309740072A192 /* ZGPyVMProtModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 770136E9192309740072A192 /* ZGPyVMProtModule.m */; };
+		770F283E18827D1B001B828C /* ZGBreakPointConditionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770F283C18827D1B001B828C /* ZGBreakPointConditionViewController.m */; };
+		770F283F18827D1B001B828C /* ZGBreakPointConditionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770F283D18827D1B001B828C /* ZGBreakPointConditionViewController.xib */; };
+		770F284218832132001B828C /* ZGBreakPointCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 770F284118832132001B828C /* ZGBreakPointCondition.m */; };
+		770FABAC1848354100C176B7 /* ZGEditValueWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FABAA1848354100C176B7 /* ZGEditValueWindowController.m */; };
+		770FABAD1848354100C176B7 /* ZGEditValueWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770FABAB1848354100C176B7 /* ZGEditValueWindowController.xib */; };
+		770FABB118490DB400C176B7 /* ZGEditAddressWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FABAF18490DB400C176B7 /* ZGEditAddressWindowController.m */; };
+		770FABB218490DB400C176B7 /* ZGEditAddressWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770FABB018490DB400C176B7 /* ZGEditAddressWindowController.xib */; };
+		770FABB71849160200C176B7 /* ZGEditSizeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FABB51849160200C176B7 /* ZGEditSizeWindowController.m */; };
+		770FABB81849160200C176B7 /* ZGEditSizeWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 770FABB61849160200C176B7 /* ZGEditSizeWindowController.xib */; };
+		770FAC031853C5D600C176B7 /* APTokenSearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FAC021853C5D600C176B7 /* APTokenSearchField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		770FAC0618542BFF00C176B7 /* ZGSearchToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FAC0518542BFF00C176B7 /* ZGSearchToken.m */; };
+		7714194118AC7D8500600423 /* ZGMemoryDumpFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7714194018AC7D8500600423 /* ZGMemoryDumpFunctions.m */; };
+		77179F6B18CD34F100BCB6D0 /* ZGAppUpdaterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77179F6A18CD34F100BCB6D0 /* ZGAppUpdaterController.m */; };
+		771A3F4518CC0B0900D19676 /* ZGDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 771A3F4418CC0B0900D19676 /* ZGDocumentController.m */; };
+		771A3F4818CCF32F00D19676 /* ZGHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 771A3F4718CCF32F00D19676 /* ZGHotKeyCenter.m */; };
+		771A931D18791A8D0098511D /* ZGTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 771A931C18791A8D0098511D /* ZGTableView.m */; };
+		77282120189B854D0044E4BC /* ZGFunctionTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7728211F189B854D0044E4BC /* ZGFunctionTypes.m */; };
+		77282123189E769B0044E4BC /* ZGStoredData.m in Sources */ = {isa = PBXBuildFile; fileRef = 77282122189E769B0044E4BC /* ZGStoredData.m */; };
+		77282126189EA4520044E4BC /* ZGProcessTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77282125189EA4520044E4BC /* ZGProcessTaskManager.m */; };
+		772C0F7E18B88AFA009FFF72 /* ZGRegisterEntries.m in Sources */ = {isa = PBXBuildFile; fileRef = 772C0F7D18B88AFA009FFF72 /* ZGRegisterEntries.m */; };
+		772C0F8218B95603009FFF72 /* ZGBacktraceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 772C0F8018B95603009FFF72 /* ZGBacktraceViewController.m */; };
+		772C0F8318B95603009FFF72 /* ZGBacktraceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 772C0F8118B95603009FFF72 /* ZGBacktraceViewController.xib */; };
+		772D1217190D85CC00800B1B /* ZGHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 772D1216190D85CC00800B1B /* ZGHotKey.m */; };
+		772D121D190E008500800B1B /* ZGUpdatePreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 772D121B190E008500800B1B /* ZGUpdatePreferencesViewController.m */; };
+		772D121E190E008500800B1B /* ZGUpdatePreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 772D121C190E008500800B1B /* ZGUpdatePreferencesViewController.xib */; };
+		772D1268190E0D8600800B1B /* ZGHotKeyPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 772D1266190E0D8600800B1B /* ZGHotKeyPreferencesViewController.m */; };
+		772D1269190E0D8600800B1B /* ZGHotKeyPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 772D1267190E0D8600800B1B /* ZGHotKeyPreferencesViewController.xib */; };
+		7730999D18660A29008B71DA /* ZGDocumentOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7730999B18660A29008B71DA /* ZGDocumentOptionsViewController.m */; };
+		7730999E18660A29008B71DA /* ZGDocumentOptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7730999C18660A29008B71DA /* ZGDocumentOptionsViewController.xib */; };
+		7735B05518DAB3E8000371AA /* ZGMemoryNavigationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7735B05418DAB3E8000371AA /* ZGMemoryNavigationWindowController.m */; };
+		773972F117D2E6AE00B958EE /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 773972EF17D2E6AE00B958EE /* mach_excServer.c */; };
+		773972F217D2E6AE00B958EE /* mach_excUser.c in Sources */ = {isa = PBXBuildFile; fileRef = 773972F017D2E6AE00B958EE /* mach_excUser.c */; };
+		773972F617D2E7B600B958EE /* DataInspectorRepresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 773972F517D2E7B600B958EE /* DataInspectorRepresenter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		773972F917D2E80F00B958EE /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773972F717D2E80F00B958EE /* ShortcutRecorder.framework */; };
+		773972FA17D2E80F00B958EE /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773972F817D2E80F00B958EE /* Sparkle.framework */; };
+		773DE962190F4D130078E8F9 /* ZGScriptPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773DE960190F4D130078E8F9 /* ZGScriptPreferencesViewController.m */; };
+		773DE963190F4D130078E8F9 /* ZGScriptPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 773DE961190F4D130078E8F9 /* ZGScriptPreferencesViewController.xib */; };
+		773E8AFB1821DC5A00D1A71A /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773E8AF91821DBF300D1A71A /* CoreServices.framework */; };
+		773E8AFC1821DC5A00D1A71A /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773E8AF71821DBE800D1A71A /* ApplicationServices.framework */; };
+		773E8B021821DDAD00D1A71A /* CoreSymbolication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773E8B011821DDAD00D1A71A /* CoreSymbolication.framework */; };
+		773E8B041821DE5300D1A71A /* HexFiend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773E8B031821DE5300D1A71A /* HexFiend.framework */; };
+		773E8B061821DE9300D1A71A /* libudis86.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 773E8B051821DE9300D1A71A /* libudis86.a */; };
+		773E8B081821DEAC00D1A71A /* libpython3.3m.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 773E8B071821DEAC00D1A71A /* libpython3.3m.a */; };
+		773E8B0C1821E45900D1A71A /* HexFiend.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 773E8B031821DE5300D1A71A /* HexFiend.framework */; };
+		7743F9C618024CE400DBC19A /* python3.3 in Resources */ = {isa = PBXBuildFile; fileRef = 7743F9C518024CE400DBC19A /* python3.3 */; };
+		774B5EE61915361400D7AA69 /* ZGPyKeyCodeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 774B5EE51915361400D7AA69 /* ZGPyKeyCodeModule.m */; };
+		775FCB4211719FAF000054FB /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775FCB4111719FAF000054FB /* Carbon.framework */; };
+		77607AB1185CD50100AC532B /* AGScopeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 77607AB0185CD50100AC532B /* AGScopeBar.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7768064018B96A64007F2CAF /* ZGThreadStates.c in Sources */ = {isa = PBXBuildFile; fileRef = 7768063E18B96A64007F2CAF /* ZGThreadStates.c */; };
+		7768064318B9A36E007F2CAF /* ZGBacktrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 7768064218B9A36E007F2CAF /* ZGBacktrace.m */; };
+		776B62E319312648004BF4A0 /* random_data in Resources */ = {isa = PBXBuildFile; fileRef = 776B62E219312648004BF4A0 /* random_data */; };
+		776B62E6193126B7004BF4A0 /* ByteArraySearchTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 776B62E5193126B7004BF4A0 /* ByteArraySearchTest.mm */; };
+		777AD8C717D96F30003A5317 /* ZGPyDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = 777AD8C617D96F30003A5317 /* ZGPyDebugger.m */; };
+		777C34B5187523D0005E64E1 /* ZGNoSmallSizeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 777C34B4187523D0005E64E1 /* ZGNoSmallSizeToolbar.m */; };
+		777DA25218CE97BE0092DEC9 /* ZGAppTerminationState.m in Sources */ = {isa = PBXBuildFile; fileRef = 777DA25118CE97BE0092DEC9 /* ZGAppTerminationState.m */; };
+		777DA25518CEA0390092DEC9 /* ZGAppPathUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 777DA25418CEA0390092DEC9 /* ZGAppPathUtilities.m */; };
+		777DA25918CF55750092DEC9 /* ZGNavigationPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 777DA25818CF55750092DEC9 /* ZGNavigationPost.m */; };
+		7789C37B189A570F00F1FDAF /* ZGMachBinaryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7789C37A189A570F00F1FDAF /* ZGMachBinaryInfo.m */; };
+		77988F1A185803E800476A37 /* container.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 77988F19185803E800476A37 /* container.pdf */; };
+		77988F1C185804AC00476A37 /* container_filled.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 77988F1B185804AC00476A37 /* container_filled.pdf */; };
+		7798EEC518C40B7F001120FB /* _DDDecimalFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EE9418C40B7F001120FB /* _DDDecimalFunctions.m */; };
+		7798EEC618C40B7F001120FB /* _DDFunctionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EE9618C40B7F001120FB /* _DDFunctionEvaluator.m */; };
+		7798EEC718C40B7F001120FB /* _DDFunctionExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EE9818C40B7F001120FB /* _DDFunctionExpression.m */; };
+		7798EEC818C40B7F001120FB /* _DDFunctionTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EE9A18C40B7F001120FB /* _DDFunctionTerm.m */; };
+		7798EEC918C40B7F001120FB /* _DDGroupTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EE9C18C40B7F001120FB /* _DDGroupTerm.m */; };
+		7798EECA18C40B7F001120FB /* _DDNumberExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EE9E18C40B7F001120FB /* _DDNumberExpression.m */; };
+		7798EECB18C40B7F001120FB /* _DDNumberTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEA018C40B7F001120FB /* _DDNumberTerm.m */; };
+		7798EECC18C40B7F001120FB /* _DDOperatorTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEA218C40B7F001120FB /* _DDOperatorTerm.m */; };
+		7798EECD18C40B7F001120FB /* _DDParserTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEA418C40B7F001120FB /* _DDParserTerm.m */; };
+		7798EECE18C40B7F001120FB /* _DDPrecisionFunctionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEA618C40B7F001120FB /* _DDPrecisionFunctionEvaluator.m */; };
+		7798EECF18C40B7F001120FB /* _DDRewriteRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEA818C40B7F001120FB /* _DDRewriteRule.m */; };
+		7798EED018C40B7F001120FB /* _DDVariableExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEAA18C40B7F001120FB /* _DDVariableExpression.m */; };
+		7798EED118C40B7F001120FB /* _DDVariableTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEAC18C40B7F001120FB /* _DDVariableTerm.m */; };
+		7798EED218C40B7F001120FB /* DDExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEAE18C40B7F001120FB /* DDExpression.m */; };
+		7798EED318C40B7F001120FB /* DDExpressionRewriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEB018C40B7F001120FB /* DDExpressionRewriter.m */; };
+		7798EED418C40B7F001120FB /* DDMathEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEB218C40B7F001120FB /* DDMathEvaluator.m */; };
+		7798EED518C40B7F001120FB /* DDMathOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEB618C40B7F001120FB /* DDMathOperator.m */; };
+		7798EED618C40B7F001120FB /* DDMathStringToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEBA18C40B7F001120FB /* DDMathStringToken.m */; };
+		7798EED718C40B7F001120FB /* DDMathStringTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEBC18C40B7F001120FB /* DDMathStringTokenizer.m */; };
+		7798EED818C40B7F001120FB /* DDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEBE18C40B7F001120FB /* DDParser.m */; };
+		7798EED918C40B7F001120FB /* DDParserTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEC018C40B7F001120FB /* DDParserTypes.m */; };
+		7798EEDA18C40B7F001120FB /* DDTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEC218C40B7F001120FB /* DDTypes.m */; };
+		7798EEDB18C40B7F001120FB /* NSString+DDMathParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEC418C40B7F001120FB /* NSString+DDMathParsing.m */; };
+		779C6CC318E7309B0076D647 /* ZGDebuggerUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C6CC218E7309B0076D647 /* ZGDebuggerUtilities.m */; };
+		779D56C018F0775500FD5408 /* ZGMemoryProtectionWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779D56BE18F0775500FD5408 /* ZGMemoryProtectionWindowController.m */; };
+		779D56C118F0775500FD5408 /* ZGMemoryProtectionWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779D56BF18F0775500FD5408 /* ZGMemoryProtectionWindowController.xib */; };
+		779D56C518F1284200FD5408 /* ZGMemoryDumpRangeWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779D56C318F1284100FD5408 /* ZGMemoryDumpRangeWindowController.m */; };
+		779D56C618F1284200FD5408 /* ZGMemoryDumpRangeWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779D56C418F1284100FD5408 /* ZGMemoryDumpRangeWindowController.xib */; };
+		779D56CA18F1BB0300FD5408 /* ZGMemoryDumpAllWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 779D56C818F1BB0300FD5408 /* ZGMemoryDumpAllWindowController.m */; };
+		779D56CB18F1BB0300FD5408 /* ZGMemoryDumpAllWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 779D56C918F1BB0300FD5408 /* ZGMemoryDumpAllWindowController.xib */; };
+		77A5B03019189CC9002BEC69 /* BinarySearchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A5B02F19189CC9002BEC69 /* BinarySearchTest.m */; };
+		77A5B03119189DA5002BEC69 /* NSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1163717D2EF76009E002A /* NSArrayAdditions.m */; };
+		77C19AAF19158ABF0028F7F1 /* ZGPyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C19AAE19158ABF0028F7F1 /* ZGPyUtilities.m */; };
+		77C19AB219158C190028F7F1 /* ZGPyKeyModModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C19AB119158C190028F7F1 /* ZGPyKeyModModule.m */; };
+		77CE28B717D538E300998F28 /* ZGLoggerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CE28B517D538E300998F28 /* ZGLoggerWindowController.m */; };
+		77CE28B817D538E300998F28 /* ZGLoggerWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77CE28B617D538E300998F28 /* ZGLoggerWindowController.xib */; };
+		77CE28BA17D580AD00998F28 /* ZGPyMainModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CE28B917D580AD00998F28 /* ZGPyMainModule.m */; };
+		77CECE1718B8861C006D45E9 /* ZGRegistersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CECE1518B8861C006D45E9 /* ZGRegistersViewController.m */; };
+		77CECE1818B8861C006D45E9 /* ZGRegistersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77CECE1618B8861C006D45E9 /* ZGRegistersViewController.xib */; };
+		77DA9D0B1800639E00549A37 /* continue.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 77DA9D071800639E00549A37 /* continue.pdf */; };
+		77DA9D0C1800639E00549A37 /* stepin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 77DA9D081800639E00549A37 /* stepin.pdf */; };
+		77DA9D0D1800639E00549A37 /* stepout.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 77DA9D091800639E00549A37 /* stepout.pdf */; };
+		77DA9D0E1800639E00549A37 /* stepover.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 77DA9D0A1800639E00549A37 /* stepover.pdf */; };
+		77E133FE19312AD500B5B799 /* HexFiend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773E8B031821DE5300D1A71A /* HexFiend.framework */; };
+		77E1340019312AFE00B5B799 /* HexFiend.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 773E8B031821DE5300D1A71A /* HexFiend.framework */; };
+		77E1340119312B1700B5B799 /* ZGSearchData.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1160E17D2EED6009E002A /* ZGSearchData.m */; };
+		77E1340219312B1F00B5B799 /* ZGSearchResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1161417D2EEEC009E002A /* ZGSearchResults.m */; };
+		77E1340319312B2800B5B799 /* ZGSearchProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1161117D2EEE1009E002A /* ZGSearchProgress.m */; };
+		77E1340419312B2E00B5B799 /* ZGSearchFunctions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77F1161717D2EEF6009E002A /* ZGSearchFunctions.mm */; };
+		77E2BBAC18FD88A700E41FA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77E2BBAA18FD88A700E41FA0 /* InfoPlist.strings */; };
+		77E2BBAE18FD88A700E41FA0 /* LinearExpressionParsingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2BBAD18FD88A700E41FA0 /* LinearExpressionParsingTest.m */; };
+		77E2BBB618FD8B7900E41FA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E2BBB518FD8B7900E41FA0 /* XCTest.framework */; };
+		77E2BBB718FD8F6B00E41FA0 /* ZGCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1163117D2EF62009E002A /* ZGCalculator.m */; };
+		77E2BBB818FD8F9200E41FA0 /* ZGVirtualMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 77F1161D17D2EF14009E002A /* ZGVirtualMemory.c */; };
+		77E2BBB918FD8FC100E41FA0 /* _DDDecimalFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EE9418C40B7F001120FB /* _DDDecimalFunctions.m */; };
+		77E2BBBA18FD8FC100E41FA0 /* _DDFunctionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EE9618C40B7F001120FB /* _DDFunctionEvaluator.m */; };
+		77E2BBBB18FD8FC100E41FA0 /* _DDFunctionExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EE9818C40B7F001120FB /* _DDFunctionExpression.m */; };
+		77E2BBBC18FD8FC100E41FA0 /* _DDFunctionTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EE9A18C40B7F001120FB /* _DDFunctionTerm.m */; };
+		77E2BBBD18FD8FC100E41FA0 /* _DDGroupTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EE9C18C40B7F001120FB /* _DDGroupTerm.m */; };
+		77E2BBBE18FD8FC100E41FA0 /* _DDNumberExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EE9E18C40B7F001120FB /* _DDNumberExpression.m */; };
+		77E2BBBF18FD8FC100E41FA0 /* _DDNumberTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEA018C40B7F001120FB /* _DDNumberTerm.m */; };
+		77E2BBC018FD8FC100E41FA0 /* _DDOperatorTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEA218C40B7F001120FB /* _DDOperatorTerm.m */; };
+		77E2BBC118FD8FC100E41FA0 /* _DDParserTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEA418C40B7F001120FB /* _DDParserTerm.m */; };
+		77E2BBC218FD8FC100E41FA0 /* _DDPrecisionFunctionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEA618C40B7F001120FB /* _DDPrecisionFunctionEvaluator.m */; };
+		77E2BBC318FD8FC100E41FA0 /* _DDRewriteRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEA818C40B7F001120FB /* _DDRewriteRule.m */; };
+		77E2BBC418FD8FC100E41FA0 /* _DDVariableExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEAA18C40B7F001120FB /* _DDVariableExpression.m */; };
+		77E2BBC518FD8FC100E41FA0 /* _DDVariableTerm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEAC18C40B7F001120FB /* _DDVariableTerm.m */; };
+		77E2BBC618FD8FC100E41FA0 /* DDExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEAE18C40B7F001120FB /* DDExpression.m */; };
+		77E2BBC718FD8FC100E41FA0 /* DDExpressionRewriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEB018C40B7F001120FB /* DDExpressionRewriter.m */; };
+		77E2BBC818FD8FC100E41FA0 /* DDMathEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEB218C40B7F001120FB /* DDMathEvaluator.m */; };
+		77E2BBC918FD8FC100E41FA0 /* DDMathOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEB618C40B7F001120FB /* DDMathOperator.m */; };
+		77E2BBCA18FD8FC100E41FA0 /* DDMathStringToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEBA18C40B7F001120FB /* DDMathStringToken.m */; };
+		77E2BBCB18FD8FC100E41FA0 /* DDMathStringTokenizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEBC18C40B7F001120FB /* DDMathStringTokenizer.m */; };
+		77E2BBCC18FD8FC100E41FA0 /* DDParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEBE18C40B7F001120FB /* DDParser.m */; };
+		77E2BBCD18FD8FC100E41FA0 /* DDParserTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEC018C40B7F001120FB /* DDParserTypes.m */; };
+		77E2BBCE18FD8FC100E41FA0 /* DDTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEC218C40B7F001120FB /* DDTypes.m */; };
+		77E2BBCF18FD8FC100E41FA0 /* NSString+DDMathParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7798EEC418C40B7F001120FB /* NSString+DDMathParsing.m */; };
+		77E2BBD018FD8FE400E41FA0 /* ZGMachBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E9DBCD181F812E009F4982 /* ZGMachBinary.m */; };
+		77E2BBD118FD8FF600E41FA0 /* ZGMachBinaryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7789C37A189A570F00F1FDAF /* ZGMachBinaryInfo.m */; };
+		77E2BBD218FD900300E41FA0 /* ZGVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1162B17D2EF50009E002A /* ZGVariable.m */; };
+		77E2BBD318FD900C00E41FA0 /* ZGProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1162717D2EF3A009E002A /* ZGProcess.m */; };
+		77E2BBD418FD901600E41FA0 /* ZGVirtualMemoryHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1162117D2EF28009E002A /* ZGVirtualMemoryHelpers.m */; };
+		77E2BBD518FD904400E41FA0 /* CoreSymbolication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773E8B011821DDAD00D1A71A /* CoreSymbolication.framework */; };
+		77E2BBD618FD905B00E41FA0 /* ZGRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1162417D2EF31009E002A /* ZGRegion.m */; };
+		77E2BBD818FDC45F00E41FA0 /* PointerFunctionSubstitutionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E2BBD718FDC45F00E41FA0 /* PointerFunctionSubstitutionTest.m */; };
+		77E9DBCE181F812E009F4982 /* ZGMachBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E9DBCD181F812E009F4982 /* ZGMachBinary.m */; };
+		77F115A317D2E832009E002A /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 773972F817D2E80F00B958EE /* Sparkle.framework */; };
+		77F115A417D2E834009E002A /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 773972F717D2E80F00B958EE /* ShortcutRecorder.framework */; };
+		77F115A817D2E87E009E002A /* VDKQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115A717D2E87E009E002A /* VDKQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77F115AA17D2E8AC009E002A /* yasm in Resources */ = {isa = PBXBuildFile; fileRef = 77F115A917D2E8AC009E002A /* yasm */; };
+		77F115AE17D2EAE4009E002A /* bitslicerdocicon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 77F115AC17D2EAE4009E002A /* bitslicerdocicon.iconset */; };
+		77F115AF17D2EAE4009E002A /* bitslicericon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 77F115AD17D2EAE4009E002A /* bitslicericon.iconset */; };
+		77F115B317D2EAFE009E002A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 77F115B217D2EAFE009E002A /* Credits.rtf */; };
+		77F115B617D2EBAF009E002A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77F115B417D2EBAF009E002A /* InfoPlist.strings */; };
+		77F115B917D2EBCB009E002A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77F115B717D2EBCB009E002A /* MainMenu.xib */; };
+		77F115BC17D2EBD7009E002A /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77F115BA17D2EBD7009E002A /* Preferences.xib */; };
+		77F115BF17D2EBE1009E002A /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77F115BD17D2EBE1009E002A /* MyDocument.xib */; };
+		77F115C217D2EBEC009E002A /* ZGDebuggerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77F115C017D2EBEC009E002A /* ZGDebuggerController.xib */; };
+		77F115C517D2EBF3009E002A /* ZGCodeInjectionWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77F115C317D2EBF3009E002A /* ZGCodeInjectionWindowController.xib */; };
+		77F115C817D2EBFA009E002A /* ZGMemoryViewerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77F115C617D2EBFA009E002A /* ZGMemoryViewerController.xib */; };
+		77F115CA17D2ECEE009E002A /* DataInspectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77F115C917D2ECEE009E002A /* DataInspectorView.xib */; };
+		77F115CD17D2ED64009E002A /* ZGMemoryViewerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115CC17D2ED64009E002A /* ZGMemoryViewerController.m */; };
+		77F115D017D2ED74009E002A /* ZGVerticalScrollerRepresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115CF17D2ED74009E002A /* ZGVerticalScrollerRepresenter.m */; };
+		77F115D317D2ED82009E002A /* ZGStatusBarRepresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115D217D2ED82009E002A /* ZGStatusBarRepresenter.m */; };
+		77F115D617D2ED8E009E002A /* ZGLineCountingRepresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115D517D2ED8E009E002A /* ZGLineCountingRepresenter.m */; };
+		77F115D917D2ED9D009E002A /* ZGLineCountingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115D817D2ED9D009E002A /* ZGLineCountingView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77F115E217D2EDC3009E002A /* ZGAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115E117D2EDC3009E002A /* ZGAppController.m */; };
+		77F115E517D2EDCD009E002A /* ZGPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115E417D2EDCD009E002A /* ZGPreferencesController.m */; };
+		77F115E817D2EDD9009E002A /* ZGProcessList.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115E717D2EDD9009E002A /* ZGProcessList.m */; };
+		77F115EB17D2EDE3009E002A /* ZGRunningProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115EA17D2EDE3009E002A /* ZGRunningProcess.m */; };
+		77F115EE17D2EDEE009E002A /* ZGRunningProcessObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115ED17D2EDEE009E002A /* ZGRunningProcessObserver.m */; };
+		77F115F117D2EDF9009E002A /* ZGDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115F017D2EDF9009E002A /* ZGDocument.m */; };
+		77F115F417D2EE0B009E002A /* ZGDocumentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115F317D2EE0B009E002A /* ZGDocumentData.m */; };
+		77F115F717D2EE28009E002A /* ZGDocumentWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115F617D2EE28009E002A /* ZGDocumentWindowController.m */; };
+		77F115FA17D2EE6F009E002A /* ZGDocumentSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115F917D2EE6F009E002A /* ZGDocumentSearchController.m */; };
+		77F115FD17D2EE7E009E002A /* ZGDocumentTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F115FC17D2EE7E009E002A /* ZGDocumentTableController.m */; };
+		77F1160317D2EEAA009E002A /* ZGVariableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1160217D2EEAA009E002A /* ZGVariableController.m */; };
+		77F1160617D2EEB6009E002A /* ZGScriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1160517D2EEB6009E002A /* ZGScriptManager.m */; };
+		77F1160917D2EEC0009E002A /* ZGPyVirtualMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1160817D2EEC0009E002A /* ZGPyVirtualMemory.m */; };
+		77F1160C17D2EECA009E002A /* ZGPyScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1160B17D2EECA009E002A /* ZGPyScript.m */; };
+		77F1160F17D2EED6009E002A /* ZGSearchData.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1160E17D2EED6009E002A /* ZGSearchData.m */; };
+		77F1161217D2EEE1009E002A /* ZGSearchProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1161117D2EEE1009E002A /* ZGSearchProgress.m */; };
+		77F1161517D2EEEC009E002A /* ZGSearchResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1161417D2EEEC009E002A /* ZGSearchResults.m */; };
+		77F1161817D2EEF6009E002A /* ZGSearchFunctions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 77F1161717D2EEF6009E002A /* ZGSearchFunctions.mm */; };
+		77F1161F17D2EF14009E002A /* ZGVirtualMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 77F1161D17D2EF14009E002A /* ZGVirtualMemory.c */; };
+		77F1162217D2EF28009E002A /* ZGVirtualMemoryHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1162117D2EF28009E002A /* ZGVirtualMemoryHelpers.m */; };
+		77F1162517D2EF31009E002A /* ZGRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1162417D2EF31009E002A /* ZGRegion.m */; };
+		77F1162817D2EF3A009E002A /* ZGProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1162717D2EF3A009E002A /* ZGProcess.m */; };
+		77F1162C17D2EF50009E002A /* ZGVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1162B17D2EF50009E002A /* ZGVariable.m */; };
+		77F1162F17D2EF5A009E002A /* ZGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1162E17D2EF5A009E002A /* ZGUtilities.m */; };
+		77F1163217D2EF62009E002A /* ZGCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1163117D2EF62009E002A /* ZGCalculator.m */; };
+		77F1163517D2EF6D009E002A /* NSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1163417D2EF6D009E002A /* NSStringAdditions.m */; };
+		77F1163817D2EF76009E002A /* NSArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1163717D2EF76009E002A /* NSArrayAdditions.m */; };
+		77F1163A17D2EF7F009E002A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1163917D2EF7F009E002A /* main.m */; };
+		77F1163D17D2EF8E009E002A /* ZGMemoryWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1163C17D2EF8E009E002A /* ZGMemoryWindowController.m */; };
+		77F1164017D2EF9E009E002A /* ZGDebuggerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1163F17D2EF9E009E002A /* ZGDebuggerController.m */; };
+		77F1164317D2EFB4009E002A /* ZGDisassemblerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1164217D2EFB4009E002A /* ZGDisassemblerObject.m */; };
+		77F1164617D2EFBD009E002A /* ZGInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1164517D2EFBD009E002A /* ZGInstruction.m */; };
+		77F1164917D2EFC8009E002A /* ZGBreakPointController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1164817D2EFC8009E002A /* ZGBreakPointController.m */; };
+		77F1164D17D2EFDA009E002A /* ZGBreakPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1164C17D2EFDA009E002A /* ZGBreakPoint.m */; };
+		77F1165017D2EFE4009E002A /* ZGDebugThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1164F17D2EFE4009E002A /* ZGDebugThread.m */; };
+		77F1165917D2F001009E002A /* ZGRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1165817D2F001009E002A /* ZGRegister.m */; };
+		77F1165C17D2F00A009E002A /* ZGCodeInjectionWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F1165B17D2F00A009E002A /* ZGCodeInjectionWindowController.m */; };
+		77FFC107186BDA3600122357 /* ZGWatchVariableWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FFC105186BDA3600122357 /* ZGWatchVariableWindowController.m */; };
+		77FFC108186BDA3600122357 /* ZGWatchVariableWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FFC106186BDA3600122357 /* ZGWatchVariableWindowController.xib */; };
+		77FFC14C18711D2700122357 /* ZGEditDescriptionWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FFC14A18711D2700122357 /* ZGEditDescriptionWindowController.m */; };
+		77FFC14D18711D2700122357 /* ZGEditDescriptionWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FFC14B18711D2700122357 /* ZGEditDescriptionWindowController.xib */; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77E2BBB018FD88A700E41FA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D15AC270486D014006FF6A4;
+			remoteInfo = "Bit Slicer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		770EA827137B74F2007FB85A /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				77F115A317D2E832009E002A /* Sparkle.framework in Copy Frameworks */,
+				77F115A417D2E834009E002A /* ShortcutRecorder.framework in Copy Frameworks */,
+				773E8B0C1821E45900D1A71A /* HexFiend.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E133FF19312AF100B5B799 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				77E1340019312AFE00B5B799 /* HexFiend.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		770136E8192309740072A192 /* ZGPyVMProtModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGPyVMProtModule.h; path = "Bit Slicer/ZGPyVMProtModule.h"; sourceTree = "<group>"; };
+		770136E9192309740072A192 /* ZGPyVMProtModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGPyVMProtModule.m; path = "Bit Slicer/ZGPyVMProtModule.m"; sourceTree = "<group>"; };
+		770F283B18827D1B001B828C /* ZGBreakPointConditionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGBreakPointConditionViewController.h; path = "Bit Slicer/ZGBreakPointConditionViewController.h"; sourceTree = "<group>"; };
+		770F283C18827D1B001B828C /* ZGBreakPointConditionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGBreakPointConditionViewController.m; path = "Bit Slicer/ZGBreakPointConditionViewController.m"; sourceTree = "<group>"; };
+		770F283D18827D1B001B828C /* ZGBreakPointConditionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGBreakPointConditionViewController.xib; path = "Bit Slicer/ZGBreakPointConditionViewController.xib"; sourceTree = "<group>"; };
+		770F284018832132001B828C /* ZGBreakPointCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGBreakPointCondition.h; path = "Bit Slicer/ZGBreakPointCondition.h"; sourceTree = "<group>"; };
+		770F284118832132001B828C /* ZGBreakPointCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGBreakPointCondition.m; path = "Bit Slicer/ZGBreakPointCondition.m"; sourceTree = "<group>"; };
+		770FABA91848354100C176B7 /* ZGEditValueWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGEditValueWindowController.h; path = "Bit Slicer/ZGEditValueWindowController.h"; sourceTree = "<group>"; };
+		770FABAA1848354100C176B7 /* ZGEditValueWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGEditValueWindowController.m; path = "Bit Slicer/ZGEditValueWindowController.m"; sourceTree = "<group>"; };
+		770FABAB1848354100C176B7 /* ZGEditValueWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGEditValueWindowController.xib; path = "Bit Slicer/ZGEditValueWindowController.xib"; sourceTree = "<group>"; };
+		770FABAE18490DB400C176B7 /* ZGEditAddressWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGEditAddressWindowController.h; path = "Bit Slicer/ZGEditAddressWindowController.h"; sourceTree = "<group>"; };
+		770FABAF18490DB400C176B7 /* ZGEditAddressWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGEditAddressWindowController.m; path = "Bit Slicer/ZGEditAddressWindowController.m"; sourceTree = "<group>"; };
+		770FABB018490DB400C176B7 /* ZGEditAddressWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGEditAddressWindowController.xib; path = "Bit Slicer/ZGEditAddressWindowController.xib"; sourceTree = "<group>"; };
+		770FABB41849160200C176B7 /* ZGEditSizeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGEditSizeWindowController.h; path = "Bit Slicer/ZGEditSizeWindowController.h"; sourceTree = "<group>"; };
+		770FABB51849160200C176B7 /* ZGEditSizeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGEditSizeWindowController.m; path = "Bit Slicer/ZGEditSizeWindowController.m"; sourceTree = "<group>"; };
+		770FABB61849160200C176B7 /* ZGEditSizeWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGEditSizeWindowController.xib; path = "Bit Slicer/ZGEditSizeWindowController.xib"; sourceTree = "<group>"; };
+		770FAC011853C5D600C176B7 /* APTokenSearchField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APTokenSearchField.h; path = deps/APTokenSearchField.h; sourceTree = "<group>"; };
+		770FAC021853C5D600C176B7 /* APTokenSearchField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APTokenSearchField.m; path = deps/APTokenSearchField.m; sourceTree = "<group>"; };
+		770FAC0418542BFF00C176B7 /* ZGSearchToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGSearchToken.h; path = "Bit Slicer/ZGSearchToken.h"; sourceTree = "<group>"; };
+		770FAC0518542BFF00C176B7 /* ZGSearchToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGSearchToken.m; path = "Bit Slicer/ZGSearchToken.m"; sourceTree = "<group>"; };
+		7714193F18AC7D8500600423 /* ZGMemoryDumpFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGMemoryDumpFunctions.h; path = "Bit Slicer/ZGMemoryDumpFunctions.h"; sourceTree = "<group>"; };
+		7714194018AC7D8500600423 /* ZGMemoryDumpFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGMemoryDumpFunctions.m; path = "Bit Slicer/ZGMemoryDumpFunctions.m"; sourceTree = "<group>"; };
+		77179F6918CD34F100BCB6D0 /* ZGAppUpdaterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGAppUpdaterController.h; path = "Bit Slicer/ZGAppUpdaterController.h"; sourceTree = "<group>"; };
+		77179F6A18CD34F100BCB6D0 /* ZGAppUpdaterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGAppUpdaterController.m; path = "Bit Slicer/ZGAppUpdaterController.m"; sourceTree = "<group>"; };
+		771A3F4318CC0B0900D19676 /* ZGDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGDocumentController.h; path = "Bit Slicer/ZGDocumentController.h"; sourceTree = "<group>"; };
+		771A3F4418CC0B0900D19676 /* ZGDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGDocumentController.m; path = "Bit Slicer/ZGDocumentController.m"; sourceTree = "<group>"; };
+		771A3F4618CCF32F00D19676 /* ZGHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGHotKeyCenter.h; path = "Bit Slicer/ZGHotKeyCenter.h"; sourceTree = "<group>"; };
+		771A3F4718CCF32F00D19676 /* ZGHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGHotKeyCenter.m; path = "Bit Slicer/ZGHotKeyCenter.m"; sourceTree = "<group>"; };
+		771A931B18791A8D0098511D /* ZGTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGTableView.h; path = "Bit Slicer/ZGTableView.h"; sourceTree = "<group>"; };
+		771A931C18791A8D0098511D /* ZGTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGTableView.m; path = "Bit Slicer/ZGTableView.m"; sourceTree = "<group>"; };
+		7728211E189B854D0044E4BC /* ZGFunctionTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGFunctionTypes.h; path = "Bit Slicer/ZGFunctionTypes.h"; sourceTree = "<group>"; };
+		7728211F189B854D0044E4BC /* ZGFunctionTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGFunctionTypes.m; path = "Bit Slicer/ZGFunctionTypes.m"; sourceTree = "<group>"; };
+		77282121189E769B0044E4BC /* ZGStoredData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGStoredData.h; path = "Bit Slicer/ZGStoredData.h"; sourceTree = "<group>"; };
+		77282122189E769B0044E4BC /* ZGStoredData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGStoredData.m; path = "Bit Slicer/ZGStoredData.m"; sourceTree = "<group>"; };
+		77282124189EA4520044E4BC /* ZGProcessTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGProcessTaskManager.h; path = "Bit Slicer/ZGProcessTaskManager.h"; sourceTree = "<group>"; };
+		77282125189EA4520044E4BC /* ZGProcessTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGProcessTaskManager.m; path = "Bit Slicer/ZGProcessTaskManager.m"; sourceTree = "<group>"; };
+		772C0F7C18B88AFA009FFF72 /* ZGRegisterEntries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGRegisterEntries.h; path = "Bit Slicer/ZGRegisterEntries.h"; sourceTree = "<group>"; };
+		772C0F7D18B88AFA009FFF72 /* ZGRegisterEntries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGRegisterEntries.m; path = "Bit Slicer/ZGRegisterEntries.m"; sourceTree = "<group>"; };
+		772C0F7F18B95603009FFF72 /* ZGBacktraceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGBacktraceViewController.h; path = "Bit Slicer/ZGBacktraceViewController.h"; sourceTree = "<group>"; };
+		772C0F8018B95603009FFF72 /* ZGBacktraceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGBacktraceViewController.m; path = "Bit Slicer/ZGBacktraceViewController.m"; sourceTree = "<group>"; };
+		772C0F8118B95603009FFF72 /* ZGBacktraceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGBacktraceViewController.xib; path = "Bit Slicer/ZGBacktraceViewController.xib"; sourceTree = "<group>"; };
+		772D1215190D85CC00800B1B /* ZGHotKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGHotKey.h; path = "Bit Slicer/ZGHotKey.h"; sourceTree = "<group>"; };
+		772D1216190D85CC00800B1B /* ZGHotKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGHotKey.m; path = "Bit Slicer/ZGHotKey.m"; sourceTree = "<group>"; };
+		772D1219190D927400800B1B /* ZGHotKeyDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGHotKeyDelegate.h; path = "Bit Slicer/ZGHotKeyDelegate.h"; sourceTree = "<group>"; };
+		772D121A190E008500800B1B /* ZGUpdatePreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGUpdatePreferencesViewController.h; path = "Bit Slicer/ZGUpdatePreferencesViewController.h"; sourceTree = "<group>"; };
+		772D121B190E008500800B1B /* ZGUpdatePreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGUpdatePreferencesViewController.m; path = "Bit Slicer/ZGUpdatePreferencesViewController.m"; sourceTree = "<group>"; };
+		772D121C190E008500800B1B /* ZGUpdatePreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGUpdatePreferencesViewController.xib; path = "Bit Slicer/ZGUpdatePreferencesViewController.xib"; sourceTree = "<group>"; };
+		772D1265190E0D8600800B1B /* ZGHotKeyPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGHotKeyPreferencesViewController.h; path = "Bit Slicer/ZGHotKeyPreferencesViewController.h"; sourceTree = "<group>"; };
+		772D1266190E0D8600800B1B /* ZGHotKeyPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGHotKeyPreferencesViewController.m; path = "Bit Slicer/ZGHotKeyPreferencesViewController.m"; sourceTree = "<group>"; };
+		772D1267190E0D8600800B1B /* ZGHotKeyPreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGHotKeyPreferencesViewController.xib; path = "Bit Slicer/ZGHotKeyPreferencesViewController.xib"; sourceTree = "<group>"; };
+		772DA7E71868F0A7009DD963 /* ZGSearchProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGSearchProgressDelegate.h; path = "Bit Slicer/ZGSearchProgressDelegate.h"; sourceTree = "<group>"; };
+		7730999A18660A29008B71DA /* ZGDocumentOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGDocumentOptionsViewController.h; path = "Bit Slicer/ZGDocumentOptionsViewController.h"; sourceTree = "<group>"; };
+		7730999B18660A29008B71DA /* ZGDocumentOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGDocumentOptionsViewController.m; path = "Bit Slicer/ZGDocumentOptionsViewController.m"; sourceTree = "<group>"; };
+		7730999C18660A29008B71DA /* ZGDocumentOptionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGDocumentOptionsViewController.xib; path = "Bit Slicer/ZGDocumentOptionsViewController.xib"; sourceTree = "<group>"; };
+		7735B05318DAB3E8000371AA /* ZGMemoryNavigationWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGMemoryNavigationWindowController.h; path = "Bit Slicer/ZGMemoryNavigationWindowController.h"; sourceTree = "<group>"; };
+		7735B05418DAB3E8000371AA /* ZGMemoryNavigationWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGMemoryNavigationWindowController.m; path = "Bit Slicer/ZGMemoryNavigationWindowController.m"; sourceTree = "<group>"; };
+		773972DC17D2E67D00B958EE /* extern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = extern.h; path = deps/libudis86/extern.h; sourceTree = "<group>"; };
+		773972E017D2E67D00B958EE /* itab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = itab.h; path = deps/libudis86/itab.h; sourceTree = "<group>"; };
+		773972E517D2E67D00B958EE /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = deps/libudis86/types.h; sourceTree = "<group>"; };
+		773972EE17D2E6AE00B958EE /* mach_exc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mach_exc.h; path = deps/mach_exc/mach_exc.h; sourceTree = "<group>"; };
+		773972EF17D2E6AE00B958EE /* mach_excServer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mach_excServer.c; path = deps/mach_exc/mach_excServer.c; sourceTree = "<group>"; };
+		773972F017D2E6AE00B958EE /* mach_excUser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mach_excUser.c; path = deps/mach_exc/mach_excUser.c; sourceTree = "<group>"; };
+		773972F317D2E70400B958EE /* udis86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = udis86.h; path = deps/udis86.h; sourceTree = "<group>"; };
+		773972F417D2E7B600B958EE /* DataInspectorRepresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataInspectorRepresenter.h; path = deps/DataInspectorRepresenter.h; sourceTree = "<group>"; };
+		773972F517D2E7B600B958EE /* DataInspectorRepresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataInspectorRepresenter.m; path = deps/DataInspectorRepresenter.m; sourceTree = "<group>"; };
+		773972F717D2E80F00B958EE /* ShortcutRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShortcutRecorder.framework; path = deps/ShortcutRecorder.framework; sourceTree = "<group>"; };
+		773972F817D2E80F00B958EE /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = deps/Sparkle.framework; sourceTree = "<group>"; };
+		773DE95F190F4D130078E8F9 /* ZGScriptPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGScriptPreferencesViewController.h; path = "Bit Slicer/ZGScriptPreferencesViewController.h"; sourceTree = "<group>"; };
+		773DE960190F4D130078E8F9 /* ZGScriptPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGScriptPreferencesViewController.m; path = "Bit Slicer/ZGScriptPreferencesViewController.m"; sourceTree = "<group>"; };
+		773DE961190F4D130078E8F9 /* ZGScriptPreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGScriptPreferencesViewController.xib; path = "Bit Slicer/ZGScriptPreferencesViewController.xib"; sourceTree = "<group>"; };
+		773E8AF71821DBE800D1A71A /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		773E8AF91821DBF300D1A71A /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		773E8B011821DDAD00D1A71A /* CoreSymbolication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSymbolication.framework; path = ../../../../../System/Library/PrivateFrameworks/CoreSymbolication.framework; sourceTree = "<group>"; };
+		773E8B031821DE5300D1A71A /* HexFiend.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HexFiend.framework; path = deps/HexFiend.framework; sourceTree = "<group>"; };
+		773E8B051821DE9300D1A71A /* libudis86.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libudis86.a; path = deps/libudis86.a; sourceTree = "<group>"; };
+		773E8B071821DEAC00D1A71A /* libpython3.3m.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpython3.3m.a; path = deps/python/lib/libpython3.3m.a; sourceTree = "<group>"; };
+		773E8B091821E01200D1A71A /* CoreSymbolication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreSymbolication.h; path = deps/CoreSymbolication/CoreSymbolication.h; sourceTree = "<group>"; };
+		7743F9C518024CE400DBC19A /* python3.3 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = python3.3; path = deps/python/lib/python3.3; sourceTree = "<group>"; };
+		7743F9CA18024D2A00DBC19A /* abstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = abstract.h; path = deps/python/include/abstract.h; sourceTree = "<group>"; };
+		7743F9CB18024D2A00DBC19A /* accu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = accu.h; path = deps/python/include/accu.h; sourceTree = "<group>"; };
+		7743F9CC18024D2A00DBC19A /* asdl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asdl.h; path = deps/python/include/asdl.h; sourceTree = "<group>"; };
+		7743F9CD18024D2A00DBC19A /* ast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ast.h; path = deps/python/include/ast.h; sourceTree = "<group>"; };
+		7743F9CE18024D2A00DBC19A /* bitset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bitset.h; path = deps/python/include/bitset.h; sourceTree = "<group>"; };
+		7743F9CF18024D2A00DBC19A /* bltinmodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bltinmodule.h; path = deps/python/include/bltinmodule.h; sourceTree = "<group>"; };
+		7743F9D018024D2A00DBC19A /* boolobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = boolobject.h; path = deps/python/include/boolobject.h; sourceTree = "<group>"; };
+		7743F9D118024D2A00DBC19A /* bytearrayobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bytearrayobject.h; path = deps/python/include/bytearrayobject.h; sourceTree = "<group>"; };
+		7743F9D218024D2A00DBC19A /* bytes_methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bytes_methods.h; path = deps/python/include/bytes_methods.h; sourceTree = "<group>"; };
+		7743F9D318024D2A00DBC19A /* bytesobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bytesobject.h; path = deps/python/include/bytesobject.h; sourceTree = "<group>"; };
+		7743F9D418024D2A00DBC19A /* cellobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cellobject.h; path = deps/python/include/cellobject.h; sourceTree = "<group>"; };
+		7743F9D518024D2A00DBC19A /* ceval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ceval.h; path = deps/python/include/ceval.h; sourceTree = "<group>"; };
+		7743F9D618024D2A00DBC19A /* classobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = classobject.h; path = deps/python/include/classobject.h; sourceTree = "<group>"; };
+		7743F9D718024D2A00DBC19A /* code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = code.h; path = deps/python/include/code.h; sourceTree = "<group>"; };
+		7743F9D818024D2A00DBC19A /* codecs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codecs.h; path = deps/python/include/codecs.h; sourceTree = "<group>"; };
+		7743F9D918024D2A00DBC19A /* compile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compile.h; path = deps/python/include/compile.h; sourceTree = "<group>"; };
+		7743F9DA18024D2A00DBC19A /* complexobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = complexobject.h; path = deps/python/include/complexobject.h; sourceTree = "<group>"; };
+		7743F9DB18024D2A00DBC19A /* datetime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = datetime.h; path = deps/python/include/datetime.h; sourceTree = "<group>"; };
+		7743F9DC18024D2A00DBC19A /* descrobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = descrobject.h; path = deps/python/include/descrobject.h; sourceTree = "<group>"; };
+		7743F9DD18024D2A00DBC19A /* dictobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dictobject.h; path = deps/python/include/dictobject.h; sourceTree = "<group>"; };
+		7743F9DE18024D2A00DBC19A /* dtoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dtoa.h; path = deps/python/include/dtoa.h; sourceTree = "<group>"; };
+		7743F9DF18024D2A00DBC19A /* dynamic_annotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dynamic_annotations.h; path = deps/python/include/dynamic_annotations.h; sourceTree = "<group>"; };
+		7743F9E018024D2A00DBC19A /* enumobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = enumobject.h; path = deps/python/include/enumobject.h; sourceTree = "<group>"; };
+		7743F9E118024D2A00DBC19A /* errcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = errcode.h; path = deps/python/include/errcode.h; sourceTree = "<group>"; };
+		7743F9E218024D2A00DBC19A /* eval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eval.h; path = deps/python/include/eval.h; sourceTree = "<group>"; };
+		7743F9E318024D2A00DBC19A /* fileobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fileobject.h; path = deps/python/include/fileobject.h; sourceTree = "<group>"; };
+		7743F9E418024D2A00DBC19A /* fileutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fileutils.h; path = deps/python/include/fileutils.h; sourceTree = "<group>"; };
+		7743F9E518024D2A00DBC19A /* floatobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = floatobject.h; path = deps/python/include/floatobject.h; sourceTree = "<group>"; };
+		7743F9E618024D2A00DBC19A /* frameobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = frameobject.h; path = deps/python/include/frameobject.h; sourceTree = "<group>"; };
+		7743F9E718024D2A00DBC19A /* funcobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = funcobject.h; path = deps/python/include/funcobject.h; sourceTree = "<group>"; };
+		7743F9E818024D2A00DBC19A /* genobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = genobject.h; path = deps/python/include/genobject.h; sourceTree = "<group>"; };
+		7743F9E918024D2A00DBC19A /* graminit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graminit.h; path = deps/python/include/graminit.h; sourceTree = "<group>"; };
+		7743F9EA18024D2A00DBC19A /* grammar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = grammar.h; path = deps/python/include/grammar.h; sourceTree = "<group>"; };
+		7743F9EB18024D2A00DBC19A /* import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = import.h; path = deps/python/include/import.h; sourceTree = "<group>"; };
+		7743F9EC18024D2A00DBC19A /* intrcheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = intrcheck.h; path = deps/python/include/intrcheck.h; sourceTree = "<group>"; };
+		7743F9ED18024D2A00DBC19A /* iterobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iterobject.h; path = deps/python/include/iterobject.h; sourceTree = "<group>"; };
+		7743F9EE18024D2A00DBC19A /* listobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = listobject.h; path = deps/python/include/listobject.h; sourceTree = "<group>"; };
+		7743F9EF18024D2A00DBC19A /* longintrepr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = longintrepr.h; path = deps/python/include/longintrepr.h; sourceTree = "<group>"; };
+		7743F9F018024D2A00DBC19A /* longobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = longobject.h; path = deps/python/include/longobject.h; sourceTree = "<group>"; };
+		7743F9F118024D2A00DBC19A /* marshal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = marshal.h; path = deps/python/include/marshal.h; sourceTree = "<group>"; };
+		7743F9F218024D2A00DBC19A /* memoryobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = memoryobject.h; path = deps/python/include/memoryobject.h; sourceTree = "<group>"; };
+		7743F9F318024D2A00DBC19A /* metagrammar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = metagrammar.h; path = deps/python/include/metagrammar.h; sourceTree = "<group>"; };
+		7743F9F418024D2A00DBC19A /* methodobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = methodobject.h; path = deps/python/include/methodobject.h; sourceTree = "<group>"; };
+		7743F9F518024D2A00DBC19A /* modsupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = modsupport.h; path = deps/python/include/modsupport.h; sourceTree = "<group>"; };
+		7743F9F618024D2A00DBC19A /* moduleobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = moduleobject.h; path = deps/python/include/moduleobject.h; sourceTree = "<group>"; };
+		7743F9F718024D2A00DBC19A /* namespaceobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = namespaceobject.h; path = deps/python/include/namespaceobject.h; sourceTree = "<group>"; };
+		7743F9F818024D2A00DBC19A /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = node.h; path = deps/python/include/node.h; sourceTree = "<group>"; };
+		7743F9F918024D2A00DBC19A /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = object.h; path = deps/python/include/object.h; sourceTree = "<group>"; };
+		7743F9FA18024D2A00DBC19A /* objimpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = objimpl.h; path = deps/python/include/objimpl.h; sourceTree = "<group>"; };
+		7743F9FB18024D2A00DBC19A /* opcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = opcode.h; path = deps/python/include/opcode.h; sourceTree = "<group>"; };
+		7743F9FC18024D2A00DBC19A /* osdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = osdefs.h; path = deps/python/include/osdefs.h; sourceTree = "<group>"; };
+		7743F9FD18024D2A00DBC19A /* parsetok.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parsetok.h; path = deps/python/include/parsetok.h; sourceTree = "<group>"; };
+		7743F9FE18024D2A00DBC19A /* patchlevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = patchlevel.h; path = deps/python/include/patchlevel.h; sourceTree = "<group>"; };
+		7743F9FF18024D2A00DBC19A /* pgen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pgen.h; path = deps/python/include/pgen.h; sourceTree = "<group>"; };
+		7743FA0018024D2A00DBC19A /* pgenheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pgenheaders.h; path = deps/python/include/pgenheaders.h; sourceTree = "<group>"; };
+		7743FA0118024D2A00DBC19A /* py_curses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = py_curses.h; path = deps/python/include/py_curses.h; sourceTree = "<group>"; };
+		7743FA0218024D2A00DBC19A /* pyarena.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pyarena.h; path = deps/python/include/pyarena.h; sourceTree = "<group>"; };
+		7743FA0318024D2A00DBC19A /* pyatomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pyatomic.h; path = deps/python/include/pyatomic.h; sourceTree = "<group>"; };
+		7743FA0418024D2A00DBC19A /* pycapsule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pycapsule.h; path = deps/python/include/pycapsule.h; sourceTree = "<group>"; };
+		7743FA0518024D2A00DBC19A /* pyconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pyconfig.h; path = deps/python/include/pyconfig.h; sourceTree = "<group>"; };
+		7743FA0618024D2A00DBC19A /* pyctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pyctype.h; path = deps/python/include/pyctype.h; sourceTree = "<group>"; };
+		7743FA0718024D2A00DBC19A /* pydebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pydebug.h; path = deps/python/include/pydebug.h; sourceTree = "<group>"; };
+		7743FA0818024D2A00DBC19A /* pyerrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pyerrors.h; path = deps/python/include/pyerrors.h; sourceTree = "<group>"; };
+		7743FA0918024D2A00DBC19A /* pyexpat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pyexpat.h; path = deps/python/include/pyexpat.h; sourceTree = "<group>"; };
+		7743FA0A18024D2A00DBC19A /* pyfpe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pyfpe.h; path = deps/python/include/pyfpe.h; sourceTree = "<group>"; };
+		7743FA0B18024D2A00DBC19A /* pygetopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pygetopt.h; path = deps/python/include/pygetopt.h; sourceTree = "<group>"; };
+		7743FA0C18024D2A00DBC19A /* pymacconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pymacconfig.h; path = deps/python/include/pymacconfig.h; sourceTree = "<group>"; };
+		7743FA0D18024D2A00DBC19A /* pymacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pymacro.h; path = deps/python/include/pymacro.h; sourceTree = "<group>"; };
+		7743FA0E18024D2A00DBC19A /* pymath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pymath.h; path = deps/python/include/pymath.h; sourceTree = "<group>"; };
+		7743FA0F18024D2A00DBC19A /* pymem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pymem.h; path = deps/python/include/pymem.h; sourceTree = "<group>"; };
+		7743FA1018024D2A00DBC19A /* pyport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pyport.h; path = deps/python/include/pyport.h; sourceTree = "<group>"; };
+		7743FA1118024D2A00DBC19A /* pystate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pystate.h; path = deps/python/include/pystate.h; sourceTree = "<group>"; };
+		7743FA1218024D2A00DBC19A /* pystrcmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pystrcmp.h; path = deps/python/include/pystrcmp.h; sourceTree = "<group>"; };
+		7743FA1318024D2A00DBC19A /* pystrtod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pystrtod.h; path = deps/python/include/pystrtod.h; sourceTree = "<group>"; };
+		7743FA1418024D2A00DBC19A /* Python-ast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Python-ast.h"; path = "deps/python/include/Python-ast.h"; sourceTree = "<group>"; };
+		7743FA1518024D2A00DBC19A /* Python.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Python.h; path = deps/python/include/Python.h; sourceTree = "<group>"; };
+		7743FA1618024D2A00DBC19A /* pythonrun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pythonrun.h; path = deps/python/include/pythonrun.h; sourceTree = "<group>"; };
+		7743FA1718024D2A00DBC19A /* pythread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pythread.h; path = deps/python/include/pythread.h; sourceTree = "<group>"; };
+		7743FA1818024D2A00DBC19A /* pytime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pytime.h; path = deps/python/include/pytime.h; sourceTree = "<group>"; };
+		7743FA1918024D2A00DBC19A /* rangeobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rangeobject.h; path = deps/python/include/rangeobject.h; sourceTree = "<group>"; };
+		7743FA1A18024D2A00DBC19A /* setobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = setobject.h; path = deps/python/include/setobject.h; sourceTree = "<group>"; };
+		7743FA1B18024D2A00DBC19A /* sliceobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sliceobject.h; path = deps/python/include/sliceobject.h; sourceTree = "<group>"; };
+		7743FA1C18024D2A00DBC19A /* structmember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = structmember.h; path = deps/python/include/structmember.h; sourceTree = "<group>"; };
+		7743FA1D18024D2A00DBC19A /* structseq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = structseq.h; path = deps/python/include/structseq.h; sourceTree = "<group>"; };
+		7743FA1E18024D2A00DBC19A /* symtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = symtable.h; path = deps/python/include/symtable.h; sourceTree = "<group>"; };
+		7743FA1F18024D2A00DBC19A /* sysmodule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sysmodule.h; path = deps/python/include/sysmodule.h; sourceTree = "<group>"; };
+		7743FA2018024D2A00DBC19A /* token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = token.h; path = deps/python/include/token.h; sourceTree = "<group>"; };
+		7743FA2118024D2A00DBC19A /* traceback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = traceback.h; path = deps/python/include/traceback.h; sourceTree = "<group>"; };
+		7743FA2218024D2A00DBC19A /* tupleobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tupleobject.h; path = deps/python/include/tupleobject.h; sourceTree = "<group>"; };
+		7743FA2318024D2A00DBC19A /* typeslots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = typeslots.h; path = deps/python/include/typeslots.h; sourceTree = "<group>"; };
+		7743FA2418024D2A00DBC19A /* ucnhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ucnhash.h; path = deps/python/include/ucnhash.h; sourceTree = "<group>"; };
+		7743FA2518024D2A00DBC19A /* unicodeobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unicodeobject.h; path = deps/python/include/unicodeobject.h; sourceTree = "<group>"; };
+		7743FA2618024D2A00DBC19A /* warnings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = warnings.h; path = deps/python/include/warnings.h; sourceTree = "<group>"; };
+		7743FA2718024D2A00DBC19A /* weakrefobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = weakrefobject.h; path = deps/python/include/weakrefobject.h; sourceTree = "<group>"; };
+		774B5EE51915361400D7AA69 /* ZGPyKeyCodeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGPyKeyCodeModule.m; path = "Bit Slicer/ZGPyKeyCodeModule.m"; sourceTree = "<group>"; };
+		774B5EE71915362900D7AA69 /* ZGPyKeyCodeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGPyKeyCodeModule.h; path = "Bit Slicer/ZGPyKeyCodeModule.h"; sourceTree = "<group>"; };
+		775FCB4111719FAF000054FB /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		77607AAF185CD50100AC532B /* AGScopeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AGScopeBar.h; path = deps/AGScopeBar.h; sourceTree = "<group>"; };
+		77607AB0185CD50100AC532B /* AGScopeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AGScopeBar.m; path = deps/AGScopeBar.m; sourceTree = "<group>"; };
+		7768063E18B96A64007F2CAF /* ZGThreadStates.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ZGThreadStates.c; path = "Bit Slicer/ZGThreadStates.c"; sourceTree = "<group>"; };
+		7768063F18B96A64007F2CAF /* ZGThreadStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGThreadStates.h; path = "Bit Slicer/ZGThreadStates.h"; sourceTree = "<group>"; };
+		7768064118B9A36E007F2CAF /* ZGBacktrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGBacktrace.h; path = "Bit Slicer/ZGBacktrace.h"; sourceTree = "<group>"; };
+		7768064218B9A36E007F2CAF /* ZGBacktrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGBacktrace.m; path = "Bit Slicer/ZGBacktrace.m"; sourceTree = "<group>"; };
+		776B62E219312648004BF4A0 /* random_data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = random_data; sourceTree = "<group>"; };
+		776B62E5193126B7004BF4A0 /* ByteArraySearchTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ByteArraySearchTest.mm; sourceTree = "<group>"; };
+		777AD8C517D96F30003A5317 /* ZGPyDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGPyDebugger.h; path = "Bit Slicer/ZGPyDebugger.h"; sourceTree = "<group>"; };
+		777AD8C617D96F30003A5317 /* ZGPyDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGPyDebugger.m; path = "Bit Slicer/ZGPyDebugger.m"; sourceTree = "<group>"; };
+		777C34B3187523D0005E64E1 /* ZGNoSmallSizeToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGNoSmallSizeToolbar.h; path = "Bit Slicer/ZGNoSmallSizeToolbar.h"; sourceTree = "<group>"; };
+		777C34B4187523D0005E64E1 /* ZGNoSmallSizeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGNoSmallSizeToolbar.m; path = "Bit Slicer/ZGNoSmallSizeToolbar.m"; sourceTree = "<group>"; };
+		777DA25018CE97BE0092DEC9 /* ZGAppTerminationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGAppTerminationState.h; path = "Bit Slicer/ZGAppTerminationState.h"; sourceTree = "<group>"; };
+		777DA25118CE97BE0092DEC9 /* ZGAppTerminationState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGAppTerminationState.m; path = "Bit Slicer/ZGAppTerminationState.m"; sourceTree = "<group>"; };
+		777DA25318CEA0390092DEC9 /* ZGAppPathUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGAppPathUtilities.h; path = "Bit Slicer/ZGAppPathUtilities.h"; sourceTree = "<group>"; };
+		777DA25418CEA0390092DEC9 /* ZGAppPathUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGAppPathUtilities.m; path = "Bit Slicer/ZGAppPathUtilities.m"; sourceTree = "<group>"; };
+		777DA25618CEAFE70092DEC9 /* ZGAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGAppController.h; path = "Bit Slicer/ZGAppController.h"; sourceTree = "<group>"; };
+		777DA25718CF55750092DEC9 /* ZGNavigationPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGNavigationPost.h; path = "Bit Slicer/ZGNavigationPost.h"; sourceTree = "<group>"; };
+		777DA25818CF55750092DEC9 /* ZGNavigationPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGNavigationPost.m; path = "Bit Slicer/ZGNavigationPost.m"; sourceTree = "<group>"; };
+		7789C379189A570F00F1FDAF /* ZGMachBinaryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGMachBinaryInfo.h; path = "Bit Slicer/ZGMachBinaryInfo.h"; sourceTree = "<group>"; };
+		7789C37A189A570F00F1FDAF /* ZGMachBinaryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGMachBinaryInfo.m; path = "Bit Slicer/ZGMachBinaryInfo.m"; sourceTree = "<group>"; };
+		77988F19185803E800476A37 /* container.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = container.pdf; path = "Bit Slicer/docicons/container.pdf"; sourceTree = "<group>"; };
+		77988F1B185804AC00476A37 /* container_filled.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = container_filled.pdf; path = "Bit Slicer/docicons/container_filled.pdf"; sourceTree = "<group>"; };
+		7798EE9318C40B7F001120FB /* _DDDecimalFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDDecimalFunctions.h; path = deps/DDMathParser/_DDDecimalFunctions.h; sourceTree = "<group>"; };
+		7798EE9418C40B7F001120FB /* _DDDecimalFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDDecimalFunctions.m; path = deps/DDMathParser/_DDDecimalFunctions.m; sourceTree = "<group>"; };
+		7798EE9518C40B7F001120FB /* _DDFunctionEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDFunctionEvaluator.h; path = deps/DDMathParser/_DDFunctionEvaluator.h; sourceTree = "<group>"; };
+		7798EE9618C40B7F001120FB /* _DDFunctionEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDFunctionEvaluator.m; path = deps/DDMathParser/_DDFunctionEvaluator.m; sourceTree = "<group>"; };
+		7798EE9718C40B7F001120FB /* _DDFunctionExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDFunctionExpression.h; path = deps/DDMathParser/_DDFunctionExpression.h; sourceTree = "<group>"; };
+		7798EE9818C40B7F001120FB /* _DDFunctionExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDFunctionExpression.m; path = deps/DDMathParser/_DDFunctionExpression.m; sourceTree = "<group>"; };
+		7798EE9918C40B7F001120FB /* _DDFunctionTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDFunctionTerm.h; path = deps/DDMathParser/_DDFunctionTerm.h; sourceTree = "<group>"; };
+		7798EE9A18C40B7F001120FB /* _DDFunctionTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDFunctionTerm.m; path = deps/DDMathParser/_DDFunctionTerm.m; sourceTree = "<group>"; };
+		7798EE9B18C40B7F001120FB /* _DDGroupTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDGroupTerm.h; path = deps/DDMathParser/_DDGroupTerm.h; sourceTree = "<group>"; };
+		7798EE9C18C40B7F001120FB /* _DDGroupTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDGroupTerm.m; path = deps/DDMathParser/_DDGroupTerm.m; sourceTree = "<group>"; };
+		7798EE9D18C40B7F001120FB /* _DDNumberExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDNumberExpression.h; path = deps/DDMathParser/_DDNumberExpression.h; sourceTree = "<group>"; };
+		7798EE9E18C40B7F001120FB /* _DDNumberExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDNumberExpression.m; path = deps/DDMathParser/_DDNumberExpression.m; sourceTree = "<group>"; };
+		7798EE9F18C40B7F001120FB /* _DDNumberTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDNumberTerm.h; path = deps/DDMathParser/_DDNumberTerm.h; sourceTree = "<group>"; };
+		7798EEA018C40B7F001120FB /* _DDNumberTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDNumberTerm.m; path = deps/DDMathParser/_DDNumberTerm.m; sourceTree = "<group>"; };
+		7798EEA118C40B7F001120FB /* _DDOperatorTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDOperatorTerm.h; path = deps/DDMathParser/_DDOperatorTerm.h; sourceTree = "<group>"; };
+		7798EEA218C40B7F001120FB /* _DDOperatorTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDOperatorTerm.m; path = deps/DDMathParser/_DDOperatorTerm.m; sourceTree = "<group>"; };
+		7798EEA318C40B7F001120FB /* _DDParserTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDParserTerm.h; path = deps/DDMathParser/_DDParserTerm.h; sourceTree = "<group>"; };
+		7798EEA418C40B7F001120FB /* _DDParserTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDParserTerm.m; path = deps/DDMathParser/_DDParserTerm.m; sourceTree = "<group>"; };
+		7798EEA518C40B7F001120FB /* _DDPrecisionFunctionEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDPrecisionFunctionEvaluator.h; path = deps/DDMathParser/_DDPrecisionFunctionEvaluator.h; sourceTree = "<group>"; };
+		7798EEA618C40B7F001120FB /* _DDPrecisionFunctionEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDPrecisionFunctionEvaluator.m; path = deps/DDMathParser/_DDPrecisionFunctionEvaluator.m; sourceTree = "<group>"; };
+		7798EEA718C40B7F001120FB /* _DDRewriteRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDRewriteRule.h; path = deps/DDMathParser/_DDRewriteRule.h; sourceTree = "<group>"; };
+		7798EEA818C40B7F001120FB /* _DDRewriteRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDRewriteRule.m; path = deps/DDMathParser/_DDRewriteRule.m; sourceTree = "<group>"; };
+		7798EEA918C40B7F001120FB /* _DDVariableExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDVariableExpression.h; path = deps/DDMathParser/_DDVariableExpression.h; sourceTree = "<group>"; };
+		7798EEAA18C40B7F001120FB /* _DDVariableExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDVariableExpression.m; path = deps/DDMathParser/_DDVariableExpression.m; sourceTree = "<group>"; };
+		7798EEAB18C40B7F001120FB /* _DDVariableTerm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = _DDVariableTerm.h; path = deps/DDMathParser/_DDVariableTerm.h; sourceTree = "<group>"; };
+		7798EEAC18C40B7F001120FB /* _DDVariableTerm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = _DDVariableTerm.m; path = deps/DDMathParser/_DDVariableTerm.m; sourceTree = "<group>"; };
+		7798EEAD18C40B7F001120FB /* DDExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDExpression.h; path = deps/DDMathParser/DDExpression.h; sourceTree = "<group>"; };
+		7798EEAE18C40B7F001120FB /* DDExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDExpression.m; path = deps/DDMathParser/DDExpression.m; sourceTree = "<group>"; };
+		7798EEAF18C40B7F001120FB /* DDExpressionRewriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDExpressionRewriter.h; path = deps/DDMathParser/DDExpressionRewriter.h; sourceTree = "<group>"; };
+		7798EEB018C40B7F001120FB /* DDExpressionRewriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDExpressionRewriter.m; path = deps/DDMathParser/DDExpressionRewriter.m; sourceTree = "<group>"; };
+		7798EEB118C40B7F001120FB /* DDMathEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathEvaluator.h; path = deps/DDMathParser/DDMathEvaluator.h; sourceTree = "<group>"; };
+		7798EEB218C40B7F001120FB /* DDMathEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDMathEvaluator.m; path = deps/DDMathParser/DDMathEvaluator.m; sourceTree = "<group>"; };
+		7798EEB318C40B7F001120FB /* DDMathEvaluator+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DDMathEvaluator+Private.h"; path = "deps/DDMathParser/DDMathEvaluator+Private.h"; sourceTree = "<group>"; };
+		7798EEB418C40B7F001120FB /* DDMathOperator_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathOperator_Internal.h; path = deps/DDMathParser/DDMathOperator_Internal.h; sourceTree = "<group>"; };
+		7798EEB518C40B7F001120FB /* DDMathOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathOperator.h; path = deps/DDMathParser/DDMathOperator.h; sourceTree = "<group>"; };
+		7798EEB618C40B7F001120FB /* DDMathOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDMathOperator.m; path = deps/DDMathParser/DDMathOperator.m; sourceTree = "<group>"; };
+		7798EEB718C40B7F001120FB /* DDMathParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathParser.h; path = deps/DDMathParser/DDMathParser.h; sourceTree = "<group>"; };
+		7798EEB818C40B7F001120FB /* DDMathParserMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathParserMacros.h; path = deps/DDMathParser/DDMathParserMacros.h; sourceTree = "<group>"; };
+		7798EEB918C40B7F001120FB /* DDMathStringToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathStringToken.h; path = deps/DDMathParser/DDMathStringToken.h; sourceTree = "<group>"; };
+		7798EEBA18C40B7F001120FB /* DDMathStringToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDMathStringToken.m; path = deps/DDMathParser/DDMathStringToken.m; sourceTree = "<group>"; };
+		7798EEBB18C40B7F001120FB /* DDMathStringTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMathStringTokenizer.h; path = deps/DDMathParser/DDMathStringTokenizer.h; sourceTree = "<group>"; };
+		7798EEBC18C40B7F001120FB /* DDMathStringTokenizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDMathStringTokenizer.m; path = deps/DDMathParser/DDMathStringTokenizer.m; sourceTree = "<group>"; };
+		7798EEBD18C40B7F001120FB /* DDParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDParser.h; path = deps/DDMathParser/DDParser.h; sourceTree = "<group>"; };
+		7798EEBE18C40B7F001120FB /* DDParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDParser.m; path = deps/DDMathParser/DDParser.m; sourceTree = "<group>"; };
+		7798EEBF18C40B7F001120FB /* DDParserTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDParserTypes.h; path = deps/DDMathParser/DDParserTypes.h; sourceTree = "<group>"; };
+		7798EEC018C40B7F001120FB /* DDParserTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDParserTypes.m; path = deps/DDMathParser/DDParserTypes.m; sourceTree = "<group>"; };
+		7798EEC118C40B7F001120FB /* DDTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDTypes.h; path = deps/DDMathParser/DDTypes.h; sourceTree = "<group>"; };
+		7798EEC218C40B7F001120FB /* DDTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDTypes.m; path = deps/DDMathParser/DDTypes.m; sourceTree = "<group>"; };
+		7798EEC318C40B7F001120FB /* NSString+DDMathParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+DDMathParsing.h"; path = "deps/DDMathParser/NSString+DDMathParsing.h"; sourceTree = "<group>"; };
+		7798EEC418C40B7F001120FB /* NSString+DDMathParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+DDMathParsing.m"; path = "deps/DDMathParser/NSString+DDMathParsing.m"; sourceTree = "<group>"; };
+		779C6CC118E7309B0076D647 /* ZGDebuggerUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGDebuggerUtilities.h; path = "Bit Slicer/ZGDebuggerUtilities.h"; sourceTree = "<group>"; };
+		779C6CC218E7309B0076D647 /* ZGDebuggerUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGDebuggerUtilities.m; path = "Bit Slicer/ZGDebuggerUtilities.m"; sourceTree = "<group>"; };
+		779D56BD18F0775500FD5408 /* ZGMemoryProtectionWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGMemoryProtectionWindowController.h; path = "Bit Slicer/ZGMemoryProtectionWindowController.h"; sourceTree = "<group>"; };
+		779D56BE18F0775500FD5408 /* ZGMemoryProtectionWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGMemoryProtectionWindowController.m; path = "Bit Slicer/ZGMemoryProtectionWindowController.m"; sourceTree = "<group>"; };
+		779D56BF18F0775500FD5408 /* ZGMemoryProtectionWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGMemoryProtectionWindowController.xib; path = "Bit Slicer/ZGMemoryProtectionWindowController.xib"; sourceTree = "<group>"; };
+		779D56C218F1284100FD5408 /* ZGMemoryDumpRangeWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGMemoryDumpRangeWindowController.h; path = "Bit Slicer/ZGMemoryDumpRangeWindowController.h"; sourceTree = "<group>"; };
+		779D56C318F1284100FD5408 /* ZGMemoryDumpRangeWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGMemoryDumpRangeWindowController.m; path = "Bit Slicer/ZGMemoryDumpRangeWindowController.m"; sourceTree = "<group>"; };
+		779D56C418F1284100FD5408 /* ZGMemoryDumpRangeWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGMemoryDumpRangeWindowController.xib; path = "Bit Slicer/ZGMemoryDumpRangeWindowController.xib"; sourceTree = "<group>"; };
+		779D56C718F1BB0300FD5408 /* ZGMemoryDumpAllWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGMemoryDumpAllWindowController.h; path = "Bit Slicer/ZGMemoryDumpAllWindowController.h"; sourceTree = "<group>"; };
+		779D56C818F1BB0300FD5408 /* ZGMemoryDumpAllWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGMemoryDumpAllWindowController.m; path = "Bit Slicer/ZGMemoryDumpAllWindowController.m"; sourceTree = "<group>"; };
+		779D56C918F1BB0300FD5408 /* ZGMemoryDumpAllWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGMemoryDumpAllWindowController.xib; path = "Bit Slicer/ZGMemoryDumpAllWindowController.xib"; sourceTree = "<group>"; };
+		77A5B02F19189CC9002BEC69 /* BinarySearchTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearchTest.m; sourceTree = "<group>"; };
+		77C19AAD19158ABF0028F7F1 /* ZGPyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGPyUtilities.h; path = "Bit Slicer/ZGPyUtilities.h"; sourceTree = "<group>"; };
+		77C19AAE19158ABF0028F7F1 /* ZGPyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGPyUtilities.m; path = "Bit Slicer/ZGPyUtilities.m"; sourceTree = "<group>"; };
+		77C19AB019158C190028F7F1 /* ZGPyKeyModModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGPyKeyModModule.h; path = "Bit Slicer/ZGPyKeyModModule.h"; sourceTree = "<group>"; };
+		77C19AB119158C190028F7F1 /* ZGPyKeyModModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGPyKeyModModule.m; path = "Bit Slicer/ZGPyKeyModModule.m"; sourceTree = "<group>"; };
+		77CE28B417D538E300998F28 /* ZGLoggerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGLoggerWindowController.h; path = "Bit Slicer/ZGLoggerWindowController.h"; sourceTree = "<group>"; };
+		77CE28B517D538E300998F28 /* ZGLoggerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGLoggerWindowController.m; path = "Bit Slicer/ZGLoggerWindowController.m"; sourceTree = "<group>"; };
+		77CE28B617D538E300998F28 /* ZGLoggerWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGLoggerWindowController.xib; path = "Bit Slicer/ZGLoggerWindowController.xib"; sourceTree = "<group>"; };
+		77CE28B917D580AD00998F28 /* ZGPyMainModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGPyMainModule.m; path = "Bit Slicer/ZGPyMainModule.m"; sourceTree = "<group>"; };
+		77CE28BB17D580D400998F28 /* ZGPyMainModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGPyMainModule.h; path = "Bit Slicer/ZGPyMainModule.h"; sourceTree = "<group>"; };
+		77CECE1418B8861C006D45E9 /* ZGRegistersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGRegistersViewController.h; path = "Bit Slicer/ZGRegistersViewController.h"; sourceTree = "<group>"; };
+		77CECE1518B8861C006D45E9 /* ZGRegistersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGRegistersViewController.m; path = "Bit Slicer/ZGRegistersViewController.m"; sourceTree = "<group>"; };
+		77CECE1618B8861C006D45E9 /* ZGRegistersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGRegistersViewController.xib; path = "Bit Slicer/ZGRegistersViewController.xib"; sourceTree = "<group>"; };
+		77DA9D071800639E00549A37 /* continue.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = continue.pdf; path = "Bit Slicer/debuggericons/continue.pdf"; sourceTree = "<group>"; };
+		77DA9D081800639E00549A37 /* stepin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = stepin.pdf; path = "Bit Slicer/debuggericons/stepin.pdf"; sourceTree = "<group>"; };
+		77DA9D091800639E00549A37 /* stepout.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = stepout.pdf; path = "Bit Slicer/debuggericons/stepout.pdf"; sourceTree = "<group>"; };
+		77DA9D0A1800639E00549A37 /* stepover.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = stepover.pdf; path = "Bit Slicer/debuggericons/stepover.pdf"; sourceTree = "<group>"; };
+		77E2BBA418FD88A700E41FA0 /* Bit Slicer Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bit Slicer Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E2BBA918FD88A700E41FA0 /* Bit Slicer Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bit Slicer Tests-Info.plist"; sourceTree = "<group>"; };
+		77E2BBAB18FD88A700E41FA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77E2BBAD18FD88A700E41FA0 /* LinearExpressionParsingTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinearExpressionParsingTest.m; sourceTree = "<group>"; };
+		77E2BBAF18FD88A700E41FA0 /* Bit Slicer Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bit Slicer Tests-Prefix.pch"; sourceTree = "<group>"; };
+		77E2BBB518FD8B7900E41FA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		77E2BBD718FDC45F00E41FA0 /* PointerFunctionSubstitutionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointerFunctionSubstitutionTest.m; sourceTree = "<group>"; };
+		77E9DBCC181F812E009F4982 /* ZGMachBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGMachBinary.h; path = "Bit Slicer/ZGMachBinary.h"; sourceTree = "<group>"; };
+		77E9DBCD181F812E009F4982 /* ZGMachBinary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGMachBinary.m; path = "Bit Slicer/ZGMachBinary.m"; sourceTree = "<group>"; };
+		77F115A517D2E865009E002A /* HFLineCountingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HFLineCountingView.h; path = deps/HFLineCountingView.h; sourceTree = "<group>"; };
+		77F115A617D2E87E009E002A /* VDKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDKQueue.h; path = deps/VDKQueue.h; sourceTree = "<group>"; };
+		77F115A717D2E87E009E002A /* VDKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDKQueue.m; path = deps/VDKQueue.m; sourceTree = "<group>"; };
+		77F115A917D2E8AC009E002A /* yasm */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = yasm; path = deps/yasm; sourceTree = "<group>"; };
+		77F115AB17D2EAC3009E002A /* Bit_Slicer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bit_Slicer_Prefix.pch; path = "Bit Slicer/Bit_Slicer_Prefix.pch"; sourceTree = "<group>"; };
+		77F115AC17D2EAE4009E002A /* bitslicerdocicon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = bitslicerdocicon.iconset; path = "Bit Slicer/bitslicerdocicon.iconset"; sourceTree = "<group>"; };
+		77F115AD17D2EAE4009E002A /* bitslicericon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = bitslicericon.iconset; path = "Bit Slicer/bitslicericon.iconset"; sourceTree = "<group>"; };
+		77F115B017D2EAF3009E002A /* Bit_Slicer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Bit_Slicer-Info.plist"; path = "Bit Slicer/Bit_Slicer-Info.plist"; sourceTree = "<group>"; };
+		77F115B217D2EAFE009E002A /* Credits.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Credits.rtf; path = "Bit Slicer/Credits.rtf"; sourceTree = "<group>"; };
+		77F115B517D2EBAF009E002A /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = "Bit Slicer/English.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		77F115B817D2EBCB009E002A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Bit Slicer/English.lproj/MainMenu.xib"; sourceTree = "<group>"; };
+		77F115BB17D2EBD7009E002A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Bit Slicer/English.lproj/Preferences.xib"; sourceTree = "<group>"; };
+		77F115BE17D2EBE1009E002A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Bit Slicer/English.lproj/MyDocument.xib"; sourceTree = "<group>"; };
+		77F115C117D2EBEC009E002A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Bit Slicer/English.lproj/ZGDebuggerController.xib"; sourceTree = "<group>"; };
+		77F115C417D2EBF3009E002A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Bit Slicer/English.lproj/ZGCodeInjectionWindowController.xib"; sourceTree = "<group>"; };
+		77F115C717D2EBFA009E002A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = "Bit Slicer/English.lproj/ZGMemoryViewerController.xib"; sourceTree = "<group>"; };
+		77F115C917D2ECEE009E002A /* DataInspectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DataInspectorView.xib; path = "Bit Slicer/DataInspectorView.xib"; sourceTree = "<group>"; };
+		77F115CB17D2ED64009E002A /* ZGMemoryViewerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGMemoryViewerController.h; path = "Bit Slicer/ZGMemoryViewerController.h"; sourceTree = "<group>"; };
+		77F115CC17D2ED64009E002A /* ZGMemoryViewerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGMemoryViewerController.m; path = "Bit Slicer/ZGMemoryViewerController.m"; sourceTree = "<group>"; };
+		77F115CE17D2ED74009E002A /* ZGVerticalScrollerRepresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGVerticalScrollerRepresenter.h; path = "Bit Slicer/ZGVerticalScrollerRepresenter.h"; sourceTree = "<group>"; };
+		77F115CF17D2ED74009E002A /* ZGVerticalScrollerRepresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGVerticalScrollerRepresenter.m; path = "Bit Slicer/ZGVerticalScrollerRepresenter.m"; sourceTree = "<group>"; };
+		77F115D117D2ED82009E002A /* ZGStatusBarRepresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGStatusBarRepresenter.h; path = "Bit Slicer/ZGStatusBarRepresenter.h"; sourceTree = "<group>"; };
+		77F115D217D2ED82009E002A /* ZGStatusBarRepresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGStatusBarRepresenter.m; path = "Bit Slicer/ZGStatusBarRepresenter.m"; sourceTree = "<group>"; };
+		77F115D417D2ED8E009E002A /* ZGLineCountingRepresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGLineCountingRepresenter.h; path = "Bit Slicer/ZGLineCountingRepresenter.h"; sourceTree = "<group>"; };
+		77F115D517D2ED8E009E002A /* ZGLineCountingRepresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGLineCountingRepresenter.m; path = "Bit Slicer/ZGLineCountingRepresenter.m"; sourceTree = "<group>"; };
+		77F115D717D2ED9D009E002A /* ZGLineCountingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGLineCountingView.h; path = "Bit Slicer/ZGLineCountingView.h"; sourceTree = "<group>"; };
+		77F115D817D2ED9D009E002A /* ZGLineCountingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGLineCountingView.m; path = "Bit Slicer/ZGLineCountingView.m"; sourceTree = "<group>"; };
+		77F115E117D2EDC3009E002A /* ZGAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGAppController.m; path = "Bit Slicer/ZGAppController.m"; sourceTree = "<group>"; };
+		77F115E317D2EDCD009E002A /* ZGPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGPreferencesController.h; path = "Bit Slicer/ZGPreferencesController.h"; sourceTree = "<group>"; };
+		77F115E417D2EDCD009E002A /* ZGPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGPreferencesController.m; path = "Bit Slicer/ZGPreferencesController.m"; sourceTree = "<group>"; };
+		77F115E617D2EDD9009E002A /* ZGProcessList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGProcessList.h; path = "Bit Slicer/ZGProcessList.h"; sourceTree = "<group>"; };
+		77F115E717D2EDD9009E002A /* ZGProcessList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGProcessList.m; path = "Bit Slicer/ZGProcessList.m"; sourceTree = "<group>"; };
+		77F115E917D2EDE3009E002A /* ZGRunningProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGRunningProcess.h; path = "Bit Slicer/ZGRunningProcess.h"; sourceTree = "<group>"; };
+		77F115EA17D2EDE3009E002A /* ZGRunningProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGRunningProcess.m; path = "Bit Slicer/ZGRunningProcess.m"; sourceTree = "<group>"; };
+		77F115EC17D2EDEE009E002A /* ZGRunningProcessObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGRunningProcessObserver.h; path = "Bit Slicer/ZGRunningProcessObserver.h"; sourceTree = "<group>"; };
+		77F115ED17D2EDEE009E002A /* ZGRunningProcessObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGRunningProcessObserver.m; path = "Bit Slicer/ZGRunningProcessObserver.m"; sourceTree = "<group>"; };
+		77F115EF17D2EDF9009E002A /* ZGDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGDocument.h; path = "Bit Slicer/ZGDocument.h"; sourceTree = "<group>"; };
+		77F115F017D2EDF9009E002A /* ZGDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGDocument.m; path = "Bit Slicer/ZGDocument.m"; sourceTree = "<group>"; };
+		77F115F217D2EE0B009E002A /* ZGDocumentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGDocumentData.h; path = "Bit Slicer/ZGDocumentData.h"; sourceTree = "<group>"; };
+		77F115F317D2EE0B009E002A /* ZGDocumentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGDocumentData.m; path = "Bit Slicer/ZGDocumentData.m"; sourceTree = "<group>"; };
+		77F115F517D2EE28009E002A /* ZGDocumentWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGDocumentWindowController.h; path = "Bit Slicer/ZGDocumentWindowController.h"; sourceTree = "<group>"; };
+		77F115F617D2EE28009E002A /* ZGDocumentWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGDocumentWindowController.m; path = "Bit Slicer/ZGDocumentWindowController.m"; sourceTree = "<group>"; };
+		77F115F817D2EE6F009E002A /* ZGDocumentSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGDocumentSearchController.h; path = "Bit Slicer/ZGDocumentSearchController.h"; sourceTree = "<group>"; };
+		77F115F917D2EE6F009E002A /* ZGDocumentSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGDocumentSearchController.m; path = "Bit Slicer/ZGDocumentSearchController.m"; sourceTree = "<group>"; };
+		77F115FB17D2EE7E009E002A /* ZGDocumentTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGDocumentTableController.h; path = "Bit Slicer/ZGDocumentTableController.h"; sourceTree = "<group>"; };
+		77F115FC17D2EE7E009E002A /* ZGDocumentTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGDocumentTableController.m; path = "Bit Slicer/ZGDocumentTableController.m"; sourceTree = "<group>"; };
+		77F1160117D2EEAA009E002A /* ZGVariableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGVariableController.h; path = "Bit Slicer/ZGVariableController.h"; sourceTree = "<group>"; };
+		77F1160217D2EEAA009E002A /* ZGVariableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGVariableController.m; path = "Bit Slicer/ZGVariableController.m"; sourceTree = "<group>"; };
+		77F1160417D2EEB6009E002A /* ZGScriptManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGScriptManager.h; path = "Bit Slicer/ZGScriptManager.h"; sourceTree = "<group>"; };
+		77F1160517D2EEB6009E002A /* ZGScriptManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGScriptManager.m; path = "Bit Slicer/ZGScriptManager.m"; sourceTree = "<group>"; };
+		77F1160717D2EEC0009E002A /* ZGPyVirtualMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGPyVirtualMemory.h; path = "Bit Slicer/ZGPyVirtualMemory.h"; sourceTree = "<group>"; };
+		77F1160817D2EEC0009E002A /* ZGPyVirtualMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGPyVirtualMemory.m; path = "Bit Slicer/ZGPyVirtualMemory.m"; sourceTree = "<group>"; };
+		77F1160A17D2EECA009E002A /* ZGPyScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGPyScript.h; path = "Bit Slicer/ZGPyScript.h"; sourceTree = "<group>"; };
+		77F1160B17D2EECA009E002A /* ZGPyScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGPyScript.m; path = "Bit Slicer/ZGPyScript.m"; sourceTree = "<group>"; };
+		77F1160D17D2EED6009E002A /* ZGSearchData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGSearchData.h; path = "Bit Slicer/ZGSearchData.h"; sourceTree = "<group>"; };
+		77F1160E17D2EED6009E002A /* ZGSearchData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGSearchData.m; path = "Bit Slicer/ZGSearchData.m"; sourceTree = "<group>"; };
+		77F1161017D2EEE1009E002A /* ZGSearchProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGSearchProgress.h; path = "Bit Slicer/ZGSearchProgress.h"; sourceTree = "<group>"; };
+		77F1161117D2EEE1009E002A /* ZGSearchProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGSearchProgress.m; path = "Bit Slicer/ZGSearchProgress.m"; sourceTree = "<group>"; };
+		77F1161317D2EEEC009E002A /* ZGSearchResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGSearchResults.h; path = "Bit Slicer/ZGSearchResults.h"; sourceTree = "<group>"; };
+		77F1161417D2EEEC009E002A /* ZGSearchResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGSearchResults.m; path = "Bit Slicer/ZGSearchResults.m"; sourceTree = "<group>"; };
+		77F1161617D2EEF6009E002A /* ZGSearchFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGSearchFunctions.h; path = "Bit Slicer/ZGSearchFunctions.h"; sourceTree = "<group>"; };
+		77F1161717D2EEF6009E002A /* ZGSearchFunctions.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ZGSearchFunctions.mm; path = "Bit Slicer/ZGSearchFunctions.mm"; sourceTree = "<group>"; };
+		77F1161C17D2EF09009E002A /* ZGMemoryTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGMemoryTypes.h; path = "Bit Slicer/ZGMemoryTypes.h"; sourceTree = "<group>"; };
+		77F1161D17D2EF14009E002A /* ZGVirtualMemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ZGVirtualMemory.c; path = "Bit Slicer/ZGVirtualMemory.c"; sourceTree = "<group>"; };
+		77F1161E17D2EF14009E002A /* ZGVirtualMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGVirtualMemory.h; path = "Bit Slicer/ZGVirtualMemory.h"; sourceTree = "<group>"; };
+		77F1162017D2EF28009E002A /* ZGVirtualMemoryHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGVirtualMemoryHelpers.h; path = "Bit Slicer/ZGVirtualMemoryHelpers.h"; sourceTree = "<group>"; };
+		77F1162117D2EF28009E002A /* ZGVirtualMemoryHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGVirtualMemoryHelpers.m; path = "Bit Slicer/ZGVirtualMemoryHelpers.m"; sourceTree = "<group>"; };
+		77F1162317D2EF31009E002A /* ZGRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGRegion.h; path = "Bit Slicer/ZGRegion.h"; sourceTree = "<group>"; };
+		77F1162417D2EF31009E002A /* ZGRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGRegion.m; path = "Bit Slicer/ZGRegion.m"; sourceTree = "<group>"; };
+		77F1162617D2EF3A009E002A /* ZGProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGProcess.h; path = "Bit Slicer/ZGProcess.h"; sourceTree = "<group>"; };
+		77F1162717D2EF3A009E002A /* ZGProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGProcess.m; path = "Bit Slicer/ZGProcess.m"; sourceTree = "<group>"; };
+		77F1162917D2EF46009E002A /* ZGVariableTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGVariableTypes.h; path = "Bit Slicer/ZGVariableTypes.h"; sourceTree = "<group>"; };
+		77F1162A17D2EF50009E002A /* ZGVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGVariable.h; path = "Bit Slicer/ZGVariable.h"; sourceTree = "<group>"; };
+		77F1162B17D2EF50009E002A /* ZGVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGVariable.m; path = "Bit Slicer/ZGVariable.m"; sourceTree = "<group>"; };
+		77F1162D17D2EF5A009E002A /* ZGUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGUtilities.h; path = "Bit Slicer/ZGUtilities.h"; sourceTree = "<group>"; };
+		77F1162E17D2EF5A009E002A /* ZGUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGUtilities.m; path = "Bit Slicer/ZGUtilities.m"; sourceTree = "<group>"; };
+		77F1163017D2EF62009E002A /* ZGCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGCalculator.h; path = "Bit Slicer/ZGCalculator.h"; sourceTree = "<group>"; };
+		77F1163117D2EF62009E002A /* ZGCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGCalculator.m; path = "Bit Slicer/ZGCalculator.m"; sourceTree = "<group>"; };
+		77F1163317D2EF6D009E002A /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSStringAdditions.h; path = "Bit Slicer/NSStringAdditions.h"; sourceTree = "<group>"; };
+		77F1163417D2EF6D009E002A /* NSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStringAdditions.m; path = "Bit Slicer/NSStringAdditions.m"; sourceTree = "<group>"; };
+		77F1163617D2EF76009E002A /* NSArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSArrayAdditions.h; path = "Bit Slicer/NSArrayAdditions.h"; sourceTree = "<group>"; };
+		77F1163717D2EF76009E002A /* NSArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSArrayAdditions.m; path = "Bit Slicer/NSArrayAdditions.m"; sourceTree = "<group>"; };
+		77F1163917D2EF7F009E002A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Bit Slicer/main.m"; sourceTree = "<group>"; };
+		77F1163B17D2EF8E009E002A /* ZGMemoryWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGMemoryWindowController.h; path = "Bit Slicer/ZGMemoryWindowController.h"; sourceTree = "<group>"; };
+		77F1163C17D2EF8E009E002A /* ZGMemoryWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGMemoryWindowController.m; path = "Bit Slicer/ZGMemoryWindowController.m"; sourceTree = "<group>"; };
+		77F1163E17D2EF9E009E002A /* ZGDebuggerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGDebuggerController.h; path = "Bit Slicer/ZGDebuggerController.h"; sourceTree = "<group>"; };
+		77F1163F17D2EF9E009E002A /* ZGDebuggerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGDebuggerController.m; path = "Bit Slicer/ZGDebuggerController.m"; sourceTree = "<group>"; };
+		77F1164117D2EFB4009E002A /* ZGDisassemblerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGDisassemblerObject.h; path = "Bit Slicer/ZGDisassemblerObject.h"; sourceTree = "<group>"; };
+		77F1164217D2EFB4009E002A /* ZGDisassemblerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGDisassemblerObject.m; path = "Bit Slicer/ZGDisassemblerObject.m"; sourceTree = "<group>"; };
+		77F1164417D2EFBD009E002A /* ZGInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGInstruction.h; path = "Bit Slicer/ZGInstruction.h"; sourceTree = "<group>"; };
+		77F1164517D2EFBD009E002A /* ZGInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGInstruction.m; path = "Bit Slicer/ZGInstruction.m"; sourceTree = "<group>"; };
+		77F1164717D2EFC8009E002A /* ZGBreakPointController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGBreakPointController.h; path = "Bit Slicer/ZGBreakPointController.h"; sourceTree = "<group>"; };
+		77F1164817D2EFC8009E002A /* ZGBreakPointController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGBreakPointController.m; path = "Bit Slicer/ZGBreakPointController.m"; sourceTree = "<group>"; };
+		77F1164A17D2EFD1009E002A /* ZGBreakPointDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGBreakPointDelegate.h; path = "Bit Slicer/ZGBreakPointDelegate.h"; sourceTree = "<group>"; };
+		77F1164B17D2EFDA009E002A /* ZGBreakPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGBreakPoint.h; path = "Bit Slicer/ZGBreakPoint.h"; sourceTree = "<group>"; };
+		77F1164C17D2EFDA009E002A /* ZGBreakPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGBreakPoint.m; path = "Bit Slicer/ZGBreakPoint.m"; sourceTree = "<group>"; };
+		77F1164E17D2EFE4009E002A /* ZGDebugThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGDebugThread.h; path = "Bit Slicer/ZGDebugThread.h"; sourceTree = "<group>"; };
+		77F1164F17D2EFE4009E002A /* ZGDebugThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGDebugThread.m; path = "Bit Slicer/ZGDebugThread.m"; sourceTree = "<group>"; };
+		77F1165717D2F001009E002A /* ZGRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGRegister.h; path = "Bit Slicer/ZGRegister.h"; sourceTree = "<group>"; };
+		77F1165817D2F001009E002A /* ZGRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGRegister.m; path = "Bit Slicer/ZGRegister.m"; sourceTree = "<group>"; };
+		77F1165A17D2F00A009E002A /* ZGCodeInjectionWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGCodeInjectionWindowController.h; path = "Bit Slicer/ZGCodeInjectionWindowController.h"; sourceTree = "<group>"; };
+		77F1165B17D2F00A009E002A /* ZGCodeInjectionWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGCodeInjectionWindowController.m; path = "Bit Slicer/ZGCodeInjectionWindowController.m"; sourceTree = "<group>"; };
+		77FFC104186BDA3600122357 /* ZGWatchVariableWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGWatchVariableWindowController.h; path = "Bit Slicer/ZGWatchVariableWindowController.h"; sourceTree = "<group>"; };
+		77FFC105186BDA3600122357 /* ZGWatchVariableWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGWatchVariableWindowController.m; path = "Bit Slicer/ZGWatchVariableWindowController.m"; sourceTree = "<group>"; };
+		77FFC106186BDA3600122357 /* ZGWatchVariableWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGWatchVariableWindowController.xib; path = "Bit Slicer/ZGWatchVariableWindowController.xib"; sourceTree = "<group>"; };
+		77FFC14918711D2700122357 /* ZGEditDescriptionWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGEditDescriptionWindowController.h; path = "Bit Slicer/ZGEditDescriptionWindowController.h"; sourceTree = "<group>"; };
+		77FFC14A18711D2700122357 /* ZGEditDescriptionWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGEditDescriptionWindowController.m; path = "Bit Slicer/ZGEditDescriptionWindowController.m"; sourceTree = "<group>"; };
+		77FFC14B18711D2700122357 /* ZGEditDescriptionWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZGEditDescriptionWindowController.xib; path = "Bit Slicer/ZGEditDescriptionWindowController.xib"; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* Bit Slicer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bit Slicer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77E2BBA118FD88A700E41FA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E2BBB618FD8B7900E41FA0 /* XCTest.framework in Frameworks */,
+				77E2BBD518FD904400E41FA0 /* CoreSymbolication.framework in Frameworks */,
+				77E133FE19312AD500B5B799 /* HexFiend.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773E8AFB1821DC5A00D1A71A /* CoreServices.framework in Frameworks */,
+				773E8AFC1821DC5A00D1A71A /* ApplicationServices.framework in Frameworks */,
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				775FCB4211719FAF000054FB /* Carbon.framework in Frameworks */,
+				773972F917D2E80F00B958EE /* ShortcutRecorder.framework in Frameworks */,
+				773E8B041821DE5300D1A71A /* HexFiend.framework in Frameworks */,
+				773E8B081821DEAC00D1A71A /* libpython3.3m.a in Frameworks */,
+				773972FA17D2E80F00B958EE /* Sparkle.framework in Frameworks */,
+				773E8B061821DE9300D1A71A /* libudis86.a in Frameworks */,
+				773E8B021821DDAD00D1A71A /* CoreSymbolication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77E2BBB518FD8B7900E41FA0 /* XCTest.framework */,
+				773E8B031821DE5300D1A71A /* HexFiend.framework */,
+				773E8B011821DDAD00D1A71A /* CoreSymbolication.framework */,
+				773E8AF91821DBF300D1A71A /* CoreServices.framework */,
+				773E8AF71821DBE800D1A71A /* ApplicationServices.framework */,
+				773972F717D2E80F00B958EE /* ShortcutRecorder.framework */,
+				773972F817D2E80F00B958EE /* Sparkle.framework */,
+				775FCB4111719FAF000054FB /* Carbon.framework */,
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* Bit Slicer.app */,
+				77E2BBA418FD88A700E41FA0 /* Bit Slicer Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* Bit Slicer */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Code */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				77E2BBA718FD88A700E41FA0 /* Bit Slicer Tests */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = "Bit Slicer";
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				7743F9C718024D0E00DBC19A /* Python */,
+				77FF507B16E9B7D40005915D /* Memory Window Controllers */,
+				77C19AB31916D4440028F7F1 /* Changing Memory Protection */,
+				7728EE0C16BE3DDA00F9E1AD /* Dumping Memory */,
+				77FF508216EAD0630005915D /* General */,
+				772D1218190D85D200800B1B /* Hot Keys */,
+				77FF507C16EACF380005915D /* Process List */,
+				77FF507D16EACF520005915D /* Documents */,
+				77FF507E16EACF6E0005915D /* Searching */,
+				77FF508016EACFF20005915D /* Virtual Memory */,
+				77FF508316EAD0B00005915D /* Models */,
+				77FF508116EAD0260005915D /* Utilities */,
+				77FF507F16EACF8F0005915D /* NSAdditions */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				77F115AB17D2EAC3009E002A /* Bit_Slicer_Prefix.pch */,
+				77F1163917D2EF7F009E002A /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7743F9C518024CE400DBC19A /* python3.3 */,
+				77DA9D0F180063A600549A37 /* Debugger Icons */,
+				77988F18185803DA00476A37 /* Document Icons */,
+				77F115A917D2E8AC009E002A /* yasm */,
+				77F115AC17D2EAE4009E002A /* bitslicerdocicon.iconset */,
+				77F115AD17D2EAE4009E002A /* bitslicericon.iconset */,
+				77F115B017D2EAF3009E002A /* Bit_Slicer-Info.plist */,
+				77F115B217D2EAFE009E002A /* Credits.rtf */,
+				77F115B417D2EBAF009E002A /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7701EF411696A29100877373 /* mach_exc */ = {
+			isa = PBXGroup;
+			children = (
+				773972EE17D2E6AE00B958EE /* mach_exc.h */,
+				773972EF17D2E6AE00B958EE /* mach_excServer.c */,
+				773972F017D2E6AE00B958EE /* mach_excUser.c */,
+			);
+			name = mach_exc;
+			sourceTree = "<group>";
+		};
+		770FABB318490DDD00C176B7 /* Variable Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77F1160117D2EEAA009E002A /* ZGVariableController.h */,
+				77F1160217D2EEAA009E002A /* ZGVariableController.m */,
+				770FABA91848354100C176B7 /* ZGEditValueWindowController.h */,
+				770FABAA1848354100C176B7 /* ZGEditValueWindowController.m */,
+				770FABAB1848354100C176B7 /* ZGEditValueWindowController.xib */,
+				770FABAE18490DB400C176B7 /* ZGEditAddressWindowController.h */,
+				770FABAF18490DB400C176B7 /* ZGEditAddressWindowController.m */,
+				770FABB018490DB400C176B7 /* ZGEditAddressWindowController.xib */,
+				770FABB41849160200C176B7 /* ZGEditSizeWindowController.h */,
+				770FABB51849160200C176B7 /* ZGEditSizeWindowController.m */,
+				770FABB61849160200C176B7 /* ZGEditSizeWindowController.xib */,
+				77FFC14918711D2700122357 /* ZGEditDescriptionWindowController.h */,
+				77FFC14A18711D2700122357 /* ZGEditDescriptionWindowController.m */,
+				77FFC14B18711D2700122357 /* ZGEditDescriptionWindowController.xib */,
+			);
+			name = "Variable Controllers";
+			sourceTree = "<group>";
+		};
+		770FAC4A1854EC9A00C176B7 /* Search Controls & Tokens */ = {
+			isa = PBXGroup;
+			children = (
+				77607AAF185CD50100AC532B /* AGScopeBar.h */,
+				77607AB0185CD50100AC532B /* AGScopeBar.m */,
+				770FAC011853C5D600C176B7 /* APTokenSearchField.h */,
+				770FAC021853C5D600C176B7 /* APTokenSearchField.m */,
+				770FAC0418542BFF00C176B7 /* ZGSearchToken.h */,
+				770FAC0518542BFF00C176B7 /* ZGSearchToken.m */,
+			);
+			name = "Search Controls & Tokens";
+			sourceTree = "<group>";
+		};
+		7728EE0C16BE3DDA00F9E1AD /* Dumping Memory */ = {
+			isa = PBXGroup;
+			children = (
+				779D56C718F1BB0300FD5408 /* ZGMemoryDumpAllWindowController.h */,
+				779D56C818F1BB0300FD5408 /* ZGMemoryDumpAllWindowController.m */,
+				779D56C918F1BB0300FD5408 /* ZGMemoryDumpAllWindowController.xib */,
+				7714193F18AC7D8500600423 /* ZGMemoryDumpFunctions.h */,
+				7714194018AC7D8500600423 /* ZGMemoryDumpFunctions.m */,
+				779D56C218F1284100FD5408 /* ZGMemoryDumpRangeWindowController.h */,
+				779D56C318F1284100FD5408 /* ZGMemoryDumpRangeWindowController.m */,
+				779D56C418F1284100FD5408 /* ZGMemoryDumpRangeWindowController.xib */,
+			);
+			name = "Dumping Memory";
+			sourceTree = "<group>";
+		};
+		772D1218190D85D200800B1B /* Hot Keys */ = {
+			isa = PBXGroup;
+			children = (
+				772D1219190D927400800B1B /* ZGHotKeyDelegate.h */,
+				771A3F4618CCF32F00D19676 /* ZGHotKeyCenter.h */,
+				771A3F4718CCF32F00D19676 /* ZGHotKeyCenter.m */,
+				772D1215190D85CC00800B1B /* ZGHotKey.h */,
+				772D1216190D85CC00800B1B /* ZGHotKey.m */,
+			);
+			name = "Hot Keys";
+			sourceTree = "<group>";
+		};
+		772D1264190E0CE500800B1B /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				77F115E317D2EDCD009E002A /* ZGPreferencesController.h */,
+				77F115E417D2EDCD009E002A /* ZGPreferencesController.m */,
+				77F115BA17D2EBD7009E002A /* Preferences.xib */,
+				772D121A190E008500800B1B /* ZGUpdatePreferencesViewController.h */,
+				772D121B190E008500800B1B /* ZGUpdatePreferencesViewController.m */,
+				772D121C190E008500800B1B /* ZGUpdatePreferencesViewController.xib */,
+				772D1265190E0D8600800B1B /* ZGHotKeyPreferencesViewController.h */,
+				772D1266190E0D8600800B1B /* ZGHotKeyPreferencesViewController.m */,
+				772D1267190E0D8600800B1B /* ZGHotKeyPreferencesViewController.xib */,
+				773DE95F190F4D130078E8F9 /* ZGScriptPreferencesViewController.h */,
+				773DE960190F4D130078E8F9 /* ZGScriptPreferencesViewController.m */,
+				773DE961190F4D130078E8F9 /* ZGScriptPreferencesViewController.xib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		77329B5A168D07B6007DCAE2 /* Debugger */ = {
+			isa = PBXGroup;
+			children = (
+				773E8B0B1821E01700D1A71A /* CoreSymbolication */,
+				7701EF411696A29100877373 /* mach_exc */,
+				77329B74168D0E16007DCAE2 /* libudis86 */,
+				77F1163E17D2EF9E009E002A /* ZGDebuggerController.h */,
+				77F1163F17D2EF9E009E002A /* ZGDebuggerController.m */,
+				77F115C017D2EBEC009E002A /* ZGDebuggerController.xib */,
+				779C6CC118E7309B0076D647 /* ZGDebuggerUtilities.h */,
+				779C6CC218E7309B0076D647 /* ZGDebuggerUtilities.m */,
+				77CECE1418B8861C006D45E9 /* ZGRegistersViewController.h */,
+				77CECE1518B8861C006D45E9 /* ZGRegistersViewController.m */,
+				77CECE1618B8861C006D45E9 /* ZGRegistersViewController.xib */,
+				772C0F7C18B88AFA009FFF72 /* ZGRegisterEntries.h */,
+				772C0F7D18B88AFA009FFF72 /* ZGRegisterEntries.m */,
+				772C0F7F18B95603009FFF72 /* ZGBacktraceViewController.h */,
+				772C0F8018B95603009FFF72 /* ZGBacktraceViewController.m */,
+				772C0F8118B95603009FFF72 /* ZGBacktraceViewController.xib */,
+				7768064118B9A36E007F2CAF /* ZGBacktrace.h */,
+				7768064218B9A36E007F2CAF /* ZGBacktrace.m */,
+				77F1164117D2EFB4009E002A /* ZGDisassemblerObject.h */,
+				77F1164217D2EFB4009E002A /* ZGDisassemblerObject.m */,
+				77F1164417D2EFBD009E002A /* ZGInstruction.h */,
+				77F1164517D2EFBD009E002A /* ZGInstruction.m */,
+				770F283B18827D1B001B828C /* ZGBreakPointConditionViewController.h */,
+				770F283C18827D1B001B828C /* ZGBreakPointConditionViewController.m */,
+				770F283D18827D1B001B828C /* ZGBreakPointConditionViewController.xib */,
+				770F284018832132001B828C /* ZGBreakPointCondition.h */,
+				770F284118832132001B828C /* ZGBreakPointCondition.m */,
+				77F1164717D2EFC8009E002A /* ZGBreakPointController.h */,
+				77F1164817D2EFC8009E002A /* ZGBreakPointController.m */,
+				77F1164A17D2EFD1009E002A /* ZGBreakPointDelegate.h */,
+				77F1164B17D2EFDA009E002A /* ZGBreakPoint.h */,
+				77F1164C17D2EFDA009E002A /* ZGBreakPoint.m */,
+				77F1164E17D2EFE4009E002A /* ZGDebugThread.h */,
+				77F1164F17D2EFE4009E002A /* ZGDebugThread.m */,
+				77F1165717D2F001009E002A /* ZGRegister.h */,
+				77F1165817D2F001009E002A /* ZGRegister.m */,
+				77F1165A17D2F00A009E002A /* ZGCodeInjectionWindowController.h */,
+				77F1165B17D2F00A009E002A /* ZGCodeInjectionWindowController.m */,
+				77F115C317D2EBF3009E002A /* ZGCodeInjectionWindowController.xib */,
+			);
+			name = Debugger;
+			sourceTree = "<group>";
+		};
+		77329B74168D0E16007DCAE2 /* libudis86 */ = {
+			isa = PBXGroup;
+			children = (
+				773E8B051821DE9300D1A71A /* libudis86.a */,
+				773972F317D2E70400B958EE /* udis86.h */,
+				773972DC17D2E67D00B958EE /* extern.h */,
+				773972E017D2E67D00B958EE /* itab.h */,
+				773972E517D2E67D00B958EE /* types.h */,
+			);
+			name = libudis86;
+			sourceTree = "<group>";
+		};
+		7739728017D26A1600B958EE /* Scripting */ = {
+			isa = PBXGroup;
+			children = (
+				77F1160417D2EEB6009E002A /* ZGScriptManager.h */,
+				77F1160517D2EEB6009E002A /* ZGScriptManager.m */,
+				77CE28BB17D580D400998F28 /* ZGPyMainModule.h */,
+				77CE28B917D580AD00998F28 /* ZGPyMainModule.m */,
+				774B5EE71915362900D7AA69 /* ZGPyKeyCodeModule.h */,
+				774B5EE51915361400D7AA69 /* ZGPyKeyCodeModule.m */,
+				77C19AB019158C190028F7F1 /* ZGPyKeyModModule.h */,
+				77C19AB119158C190028F7F1 /* ZGPyKeyModModule.m */,
+				770136E8192309740072A192 /* ZGPyVMProtModule.h */,
+				770136E9192309740072A192 /* ZGPyVMProtModule.m */,
+				77C19AAD19158ABF0028F7F1 /* ZGPyUtilities.h */,
+				77C19AAE19158ABF0028F7F1 /* ZGPyUtilities.m */,
+				77F1160717D2EEC0009E002A /* ZGPyVirtualMemory.h */,
+				77F1160817D2EEC0009E002A /* ZGPyVirtualMemory.m */,
+				777AD8C517D96F30003A5317 /* ZGPyDebugger.h */,
+				777AD8C617D96F30003A5317 /* ZGPyDebugger.m */,
+				77F1160A17D2EECA009E002A /* ZGPyScript.h */,
+				77F1160B17D2EECA009E002A /* ZGPyScript.m */,
+			);
+			name = Scripting;
+			sourceTree = "<group>";
+		};
+		773E8B0B1821E01700D1A71A /* CoreSymbolication */ = {
+			isa = PBXGroup;
+			children = (
+				773E8B091821E01200D1A71A /* CoreSymbolication.h */,
+			);
+			name = CoreSymbolication;
+			sourceTree = "<group>";
+		};
+		7743F9C718024D0E00DBC19A /* Python */ = {
+			isa = PBXGroup;
+			children = (
+				773E8B071821DEAC00D1A71A /* libpython3.3m.a */,
+				7743F9CA18024D2A00DBC19A /* abstract.h */,
+				7743F9CB18024D2A00DBC19A /* accu.h */,
+				7743F9CC18024D2A00DBC19A /* asdl.h */,
+				7743F9CD18024D2A00DBC19A /* ast.h */,
+				7743F9CE18024D2A00DBC19A /* bitset.h */,
+				7743F9CF18024D2A00DBC19A /* bltinmodule.h */,
+				7743F9D018024D2A00DBC19A /* boolobject.h */,
+				7743F9D118024D2A00DBC19A /* bytearrayobject.h */,
+				7743F9D218024D2A00DBC19A /* bytes_methods.h */,
+				7743F9D318024D2A00DBC19A /* bytesobject.h */,
+				7743F9D418024D2A00DBC19A /* cellobject.h */,
+				7743F9D518024D2A00DBC19A /* ceval.h */,
+				7743F9D618024D2A00DBC19A /* classobject.h */,
+				7743F9D718024D2A00DBC19A /* code.h */,
+				7743F9D818024D2A00DBC19A /* codecs.h */,
+				7743F9D918024D2A00DBC19A /* compile.h */,
+				7743F9DA18024D2A00DBC19A /* complexobject.h */,
+				7743F9DB18024D2A00DBC19A /* datetime.h */,
+				7743F9DC18024D2A00DBC19A /* descrobject.h */,
+				7743F9DD18024D2A00DBC19A /* dictobject.h */,
+				7743F9DE18024D2A00DBC19A /* dtoa.h */,
+				7743F9DF18024D2A00DBC19A /* dynamic_annotations.h */,
+				7743F9E018024D2A00DBC19A /* enumobject.h */,
+				7743F9E118024D2A00DBC19A /* errcode.h */,
+				7743F9E218024D2A00DBC19A /* eval.h */,
+				7743F9E318024D2A00DBC19A /* fileobject.h */,
+				7743F9E418024D2A00DBC19A /* fileutils.h */,
+				7743F9E518024D2A00DBC19A /* floatobject.h */,
+				7743F9E618024D2A00DBC19A /* frameobject.h */,
+				7743F9E718024D2A00DBC19A /* funcobject.h */,
+				7743F9E818024D2A00DBC19A /* genobject.h */,
+				7743F9E918024D2A00DBC19A /* graminit.h */,
+				7743F9EA18024D2A00DBC19A /* grammar.h */,
+				7743F9EB18024D2A00DBC19A /* import.h */,
+				7743F9EC18024D2A00DBC19A /* intrcheck.h */,
+				7743F9ED18024D2A00DBC19A /* iterobject.h */,
+				7743F9EE18024D2A00DBC19A /* listobject.h */,
+				7743F9EF18024D2A00DBC19A /* longintrepr.h */,
+				7743F9F018024D2A00DBC19A /* longobject.h */,
+				7743F9F118024D2A00DBC19A /* marshal.h */,
+				7743F9F218024D2A00DBC19A /* memoryobject.h */,
+				7743F9F318024D2A00DBC19A /* metagrammar.h */,
+				7743F9F418024D2A00DBC19A /* methodobject.h */,
+				7743F9F518024D2A00DBC19A /* modsupport.h */,
+				7743F9F618024D2A00DBC19A /* moduleobject.h */,
+				7743F9F718024D2A00DBC19A /* namespaceobject.h */,
+				7743F9F818024D2A00DBC19A /* node.h */,
+				7743F9F918024D2A00DBC19A /* object.h */,
+				7743F9FA18024D2A00DBC19A /* objimpl.h */,
+				7743F9FB18024D2A00DBC19A /* opcode.h */,
+				7743F9FC18024D2A00DBC19A /* osdefs.h */,
+				7743F9FD18024D2A00DBC19A /* parsetok.h */,
+				7743F9FE18024D2A00DBC19A /* patchlevel.h */,
+				7743F9FF18024D2A00DBC19A /* pgen.h */,
+				7743FA0018024D2A00DBC19A /* pgenheaders.h */,
+				7743FA0118024D2A00DBC19A /* py_curses.h */,
+				7743FA0218024D2A00DBC19A /* pyarena.h */,
+				7743FA0318024D2A00DBC19A /* pyatomic.h */,
+				7743FA0418024D2A00DBC19A /* pycapsule.h */,
+				7743FA0518024D2A00DBC19A /* pyconfig.h */,
+				7743FA0618024D2A00DBC19A /* pyctype.h */,
+				7743FA0718024D2A00DBC19A /* pydebug.h */,
+				7743FA0818024D2A00DBC19A /* pyerrors.h */,
+				7743FA0918024D2A00DBC19A /* pyexpat.h */,
+				7743FA0A18024D2A00DBC19A /* pyfpe.h */,
+				7743FA0B18024D2A00DBC19A /* pygetopt.h */,
+				7743FA0C18024D2A00DBC19A /* pymacconfig.h */,
+				7743FA0D18024D2A00DBC19A /* pymacro.h */,
+				7743FA0E18024D2A00DBC19A /* pymath.h */,
+				7743FA0F18024D2A00DBC19A /* pymem.h */,
+				7743FA1018024D2A00DBC19A /* pyport.h */,
+				7743FA1118024D2A00DBC19A /* pystate.h */,
+				7743FA1218024D2A00DBC19A /* pystrcmp.h */,
+				7743FA1318024D2A00DBC19A /* pystrtod.h */,
+				7743FA1418024D2A00DBC19A /* Python-ast.h */,
+				7743FA1518024D2A00DBC19A /* Python.h */,
+				7743FA1618024D2A00DBC19A /* pythonrun.h */,
+				7743FA1718024D2A00DBC19A /* pythread.h */,
+				7743FA1818024D2A00DBC19A /* pytime.h */,
+				7743FA1918024D2A00DBC19A /* rangeobject.h */,
+				7743FA1A18024D2A00DBC19A /* setobject.h */,
+				7743FA1B18024D2A00DBC19A /* sliceobject.h */,
+				7743FA1C18024D2A00DBC19A /* structmember.h */,
+				7743FA1D18024D2A00DBC19A /* structseq.h */,
+				7743FA1E18024D2A00DBC19A /* symtable.h */,
+				7743FA1F18024D2A00DBC19A /* sysmodule.h */,
+				7743FA2018024D2A00DBC19A /* token.h */,
+				7743FA2118024D2A00DBC19A /* traceback.h */,
+				7743FA2218024D2A00DBC19A /* tupleobject.h */,
+				7743FA2318024D2A00DBC19A /* typeslots.h */,
+				7743FA2418024D2A00DBC19A /* ucnhash.h */,
+				7743FA2518024D2A00DBC19A /* unicodeobject.h */,
+				7743FA2618024D2A00DBC19A /* warnings.h */,
+				7743FA2718024D2A00DBC19A /* weakrefobject.h */,
+			);
+			name = Python;
+			sourceTree = "<group>";
+		};
+		77988F18185803DA00476A37 /* Document Icons */ = {
+			isa = PBXGroup;
+			children = (
+				77988F19185803E800476A37 /* container.pdf */,
+				77988F1B185804AC00476A37 /* container_filled.pdf */,
+			);
+			name = "Document Icons";
+			sourceTree = "<group>";
+		};
+		77C19AB31916D4440028F7F1 /* Changing Memory Protection */ = {
+			isa = PBXGroup;
+			children = (
+				779D56BD18F0775500FD5408 /* ZGMemoryProtectionWindowController.h */,
+				779D56BE18F0775500FD5408 /* ZGMemoryProtectionWindowController.m */,
+				779D56BF18F0775500FD5408 /* ZGMemoryProtectionWindowController.xib */,
+			);
+			name = "Changing Memory Protection";
+			sourceTree = "<group>";
+		};
+		77D5AEAC137C6FC000026388 /* Memory Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				77F115CB17D2ED64009E002A /* ZGMemoryViewerController.h */,
+				77F115CC17D2ED64009E002A /* ZGMemoryViewerController.m */,
+				77F115C617D2EBFA009E002A /* ZGMemoryViewerController.xib */,
+				773972F417D2E7B600B958EE /* DataInspectorRepresenter.h */,
+				773972F517D2E7B600B958EE /* DataInspectorRepresenter.m */,
+				77F115C917D2ECEE009E002A /* DataInspectorView.xib */,
+				77F115CE17D2ED74009E002A /* ZGVerticalScrollerRepresenter.h */,
+				77F115CF17D2ED74009E002A /* ZGVerticalScrollerRepresenter.m */,
+				77F115D117D2ED82009E002A /* ZGStatusBarRepresenter.h */,
+				77F115D217D2ED82009E002A /* ZGStatusBarRepresenter.m */,
+				77F115D417D2ED8E009E002A /* ZGLineCountingRepresenter.h */,
+				77F115D517D2ED8E009E002A /* ZGLineCountingRepresenter.m */,
+				77F115A517D2E865009E002A /* HFLineCountingView.h */,
+				77F115D717D2ED9D009E002A /* ZGLineCountingView.h */,
+				77F115D817D2ED9D009E002A /* ZGLineCountingView.m */,
+			);
+			name = "Memory Viewer";
+			sourceTree = "<group>";
+		};
+		77DA9D0F180063A600549A37 /* Debugger Icons */ = {
+			isa = PBXGroup;
+			children = (
+				77DA9D071800639E00549A37 /* continue.pdf */,
+				77DA9D081800639E00549A37 /* stepin.pdf */,
+				77DA9D091800639E00549A37 /* stepout.pdf */,
+				77DA9D0A1800639E00549A37 /* stepover.pdf */,
+			);
+			name = "Debugger Icons";
+			sourceTree = "<group>";
+		};
+		77DC40F917AF218E000626A2 /* DDMathParser */ = {
+			isa = PBXGroup;
+			children = (
+				7798EE9318C40B7F001120FB /* _DDDecimalFunctions.h */,
+				7798EE9418C40B7F001120FB /* _DDDecimalFunctions.m */,
+				7798EE9518C40B7F001120FB /* _DDFunctionEvaluator.h */,
+				7798EE9618C40B7F001120FB /* _DDFunctionEvaluator.m */,
+				7798EE9718C40B7F001120FB /* _DDFunctionExpression.h */,
+				7798EE9818C40B7F001120FB /* _DDFunctionExpression.m */,
+				7798EE9918C40B7F001120FB /* _DDFunctionTerm.h */,
+				7798EE9A18C40B7F001120FB /* _DDFunctionTerm.m */,
+				7798EE9B18C40B7F001120FB /* _DDGroupTerm.h */,
+				7798EE9C18C40B7F001120FB /* _DDGroupTerm.m */,
+				7798EE9D18C40B7F001120FB /* _DDNumberExpression.h */,
+				7798EE9E18C40B7F001120FB /* _DDNumberExpression.m */,
+				7798EE9F18C40B7F001120FB /* _DDNumberTerm.h */,
+				7798EEA018C40B7F001120FB /* _DDNumberTerm.m */,
+				7798EEA118C40B7F001120FB /* _DDOperatorTerm.h */,
+				7798EEA218C40B7F001120FB /* _DDOperatorTerm.m */,
+				7798EEA318C40B7F001120FB /* _DDParserTerm.h */,
+				7798EEA418C40B7F001120FB /* _DDParserTerm.m */,
+				7798EEA518C40B7F001120FB /* _DDPrecisionFunctionEvaluator.h */,
+				7798EEA618C40B7F001120FB /* _DDPrecisionFunctionEvaluator.m */,
+				7798EEA718C40B7F001120FB /* _DDRewriteRule.h */,
+				7798EEA818C40B7F001120FB /* _DDRewriteRule.m */,
+				7798EEA918C40B7F001120FB /* _DDVariableExpression.h */,
+				7798EEAA18C40B7F001120FB /* _DDVariableExpression.m */,
+				7798EEAB18C40B7F001120FB /* _DDVariableTerm.h */,
+				7798EEAC18C40B7F001120FB /* _DDVariableTerm.m */,
+				7798EEAD18C40B7F001120FB /* DDExpression.h */,
+				7798EEAE18C40B7F001120FB /* DDExpression.m */,
+				7798EEAF18C40B7F001120FB /* DDExpressionRewriter.h */,
+				7798EEB018C40B7F001120FB /* DDExpressionRewriter.m */,
+				7798EEB118C40B7F001120FB /* DDMathEvaluator.h */,
+				7798EEB218C40B7F001120FB /* DDMathEvaluator.m */,
+				7798EEB318C40B7F001120FB /* DDMathEvaluator+Private.h */,
+				7798EEB418C40B7F001120FB /* DDMathOperator_Internal.h */,
+				7798EEB518C40B7F001120FB /* DDMathOperator.h */,
+				7798EEB618C40B7F001120FB /* DDMathOperator.m */,
+				7798EEB718C40B7F001120FB /* DDMathParser.h */,
+				7798EEB818C40B7F001120FB /* DDMathParserMacros.h */,
+				7798EEB918C40B7F001120FB /* DDMathStringToken.h */,
+				7798EEBA18C40B7F001120FB /* DDMathStringToken.m */,
+				7798EEBB18C40B7F001120FB /* DDMathStringTokenizer.h */,
+				7798EEBC18C40B7F001120FB /* DDMathStringTokenizer.m */,
+				7798EEBD18C40B7F001120FB /* DDParser.h */,
+				7798EEBE18C40B7F001120FB /* DDParser.m */,
+				7798EEBF18C40B7F001120FB /* DDParserTypes.h */,
+				7798EEC018C40B7F001120FB /* DDParserTypes.m */,
+				7798EEC118C40B7F001120FB /* DDTypes.h */,
+				7798EEC218C40B7F001120FB /* DDTypes.m */,
+				7798EEC318C40B7F001120FB /* NSString+DDMathParsing.h */,
+				7798EEC418C40B7F001120FB /* NSString+DDMathParsing.m */,
+			);
+			name = DDMathParser;
+			sourceTree = "<group>";
+		};
+		77E2BBA718FD88A700E41FA0 /* Bit Slicer Tests */ = {
+			isa = PBXGroup;
+			children = (
+				77A5B02F19189CC9002BEC69 /* BinarySearchTest.m */,
+				776B62E5193126B7004BF4A0 /* ByteArraySearchTest.mm */,
+				77E2BBD718FDC45F00E41FA0 /* PointerFunctionSubstitutionTest.m */,
+				77E2BBAD18FD88A700E41FA0 /* LinearExpressionParsingTest.m */,
+				77E2BBA818FD88A700E41FA0 /* Supporting Files */,
+			);
+			path = "Bit Slicer Tests";
+			sourceTree = "<group>";
+		};
+		77E2BBA818FD88A700E41FA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				776B62E219312648004BF4A0 /* random_data */,
+				77E2BBA918FD88A700E41FA0 /* Bit Slicer Tests-Info.plist */,
+				77E2BBAA18FD88A700E41FA0 /* InfoPlist.strings */,
+				77E2BBAF18FD88A700E41FA0 /* Bit Slicer Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77FF507B16E9B7D40005915D /* Memory Window Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77F1163B17D2EF8E009E002A /* ZGMemoryWindowController.h */,
+				77F1163C17D2EF8E009E002A /* ZGMemoryWindowController.m */,
+				7735B05318DAB3E8000371AA /* ZGMemoryNavigationWindowController.h */,
+				7735B05418DAB3E8000371AA /* ZGMemoryNavigationWindowController.m */,
+				77329B5A168D07B6007DCAE2 /* Debugger */,
+				77D5AEAC137C6FC000026388 /* Memory Viewer */,
+			);
+			name = "Memory Window Controllers";
+			sourceTree = "<group>";
+		};
+		77FF507C16EACF380005915D /* Process List */ = {
+			isa = PBXGroup;
+			children = (
+				77F115E617D2EDD9009E002A /* ZGProcessList.h */,
+				77F115E717D2EDD9009E002A /* ZGProcessList.m */,
+				77F115E917D2EDE3009E002A /* ZGRunningProcess.h */,
+				77F115EA17D2EDE3009E002A /* ZGRunningProcess.m */,
+				77F115EC17D2EDEE009E002A /* ZGRunningProcessObserver.h */,
+				77F115ED17D2EDEE009E002A /* ZGRunningProcessObserver.m */,
+			);
+			name = "Process List";
+			sourceTree = "<group>";
+		};
+		77FF507D16EACF520005915D /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				770FAC4A1854EC9A00C176B7 /* Search Controls & Tokens */,
+				770FABB318490DDD00C176B7 /* Variable Controllers */,
+				77F115EF17D2EDF9009E002A /* ZGDocument.h */,
+				77F115F017D2EDF9009E002A /* ZGDocument.m */,
+				77F115BD17D2EBE1009E002A /* MyDocument.xib */,
+				77F115F217D2EE0B009E002A /* ZGDocumentData.h */,
+				77F115F317D2EE0B009E002A /* ZGDocumentData.m */,
+				77F115F517D2EE28009E002A /* ZGDocumentWindowController.h */,
+				77F115F617D2EE28009E002A /* ZGDocumentWindowController.m */,
+				7730999A18660A29008B71DA /* ZGDocumentOptionsViewController.h */,
+				7730999B18660A29008B71DA /* ZGDocumentOptionsViewController.m */,
+				7730999C18660A29008B71DA /* ZGDocumentOptionsViewController.xib */,
+				77F115F817D2EE6F009E002A /* ZGDocumentSearchController.h */,
+				77F115F917D2EE6F009E002A /* ZGDocumentSearchController.m */,
+				77F115FB17D2EE7E009E002A /* ZGDocumentTableController.h */,
+				77F115FC17D2EE7E009E002A /* ZGDocumentTableController.m */,
+				77FFC104186BDA3600122357 /* ZGWatchVariableWindowController.h */,
+				77FFC105186BDA3600122357 /* ZGWatchVariableWindowController.m */,
+				77FFC106186BDA3600122357 /* ZGWatchVariableWindowController.xib */,
+				7739728017D26A1600B958EE /* Scripting */,
+			);
+			name = Documents;
+			sourceTree = "<group>";
+		};
+		77FF507E16EACF6E0005915D /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+				77F1160D17D2EED6009E002A /* ZGSearchData.h */,
+				77F1160E17D2EED6009E002A /* ZGSearchData.m */,
+				77282121189E769B0044E4BC /* ZGStoredData.h */,
+				77282122189E769B0044E4BC /* ZGStoredData.m */,
+				772DA7E71868F0A7009DD963 /* ZGSearchProgressDelegate.h */,
+				77F1161017D2EEE1009E002A /* ZGSearchProgress.h */,
+				77F1161117D2EEE1009E002A /* ZGSearchProgress.m */,
+				77F1161317D2EEEC009E002A /* ZGSearchResults.h */,
+				77F1161417D2EEEC009E002A /* ZGSearchResults.m */,
+				77F1161617D2EEF6009E002A /* ZGSearchFunctions.h */,
+				77F1161717D2EEF6009E002A /* ZGSearchFunctions.mm */,
+				7728211E189B854D0044E4BC /* ZGFunctionTypes.h */,
+				7728211F189B854D0044E4BC /* ZGFunctionTypes.m */,
+			);
+			name = Searching;
+			sourceTree = "<group>";
+		};
+		77FF507F16EACF8F0005915D /* NSAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				77F1163317D2EF6D009E002A /* NSStringAdditions.h */,
+				77F1163417D2EF6D009E002A /* NSStringAdditions.m */,
+				77F1163617D2EF76009E002A /* NSArrayAdditions.h */,
+				77F1163717D2EF76009E002A /* NSArrayAdditions.m */,
+			);
+			name = NSAdditions;
+			sourceTree = "<group>";
+		};
+		77FF508016EACFF20005915D /* Virtual Memory */ = {
+			isa = PBXGroup;
+			children = (
+				77F1161C17D2EF09009E002A /* ZGMemoryTypes.h */,
+				77F1161E17D2EF14009E002A /* ZGVirtualMemory.h */,
+				77F1161D17D2EF14009E002A /* ZGVirtualMemory.c */,
+				77F1162017D2EF28009E002A /* ZGVirtualMemoryHelpers.h */,
+				77F1162117D2EF28009E002A /* ZGVirtualMemoryHelpers.m */,
+				77282124189EA4520044E4BC /* ZGProcessTaskManager.h */,
+				77282125189EA4520044E4BC /* ZGProcessTaskManager.m */,
+				77F1162317D2EF31009E002A /* ZGRegion.h */,
+				77F1162417D2EF31009E002A /* ZGRegion.m */,
+				77E9DBCC181F812E009F4982 /* ZGMachBinary.h */,
+				77E9DBCD181F812E009F4982 /* ZGMachBinary.m */,
+				7789C379189A570F00F1FDAF /* ZGMachBinaryInfo.h */,
+				7789C37A189A570F00F1FDAF /* ZGMachBinaryInfo.m */,
+				7768063F18B96A64007F2CAF /* ZGThreadStates.h */,
+				7768063E18B96A64007F2CAF /* ZGThreadStates.c */,
+			);
+			name = "Virtual Memory";
+			sourceTree = "<group>";
+		};
+		77FF508116EAD0260005915D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				77F1162D17D2EF5A009E002A /* ZGUtilities.h */,
+				77F1162E17D2EF5A009E002A /* ZGUtilities.m */,
+				77F1163017D2EF62009E002A /* ZGCalculator.h */,
+				77F1163117D2EF62009E002A /* ZGCalculator.m */,
+				77F115A617D2E87E009E002A /* VDKQueue.h */,
+				77F115A717D2E87E009E002A /* VDKQueue.m */,
+				777C34B3187523D0005E64E1 /* ZGNoSmallSizeToolbar.h */,
+				777C34B4187523D0005E64E1 /* ZGNoSmallSizeToolbar.m */,
+				771A931B18791A8D0098511D /* ZGTableView.h */,
+				771A931C18791A8D0098511D /* ZGTableView.m */,
+				77DC40F917AF218E000626A2 /* DDMathParser */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		77FF508216EAD0630005915D /* General */ = {
+			isa = PBXGroup;
+			children = (
+				777DA25618CEAFE70092DEC9 /* ZGAppController.h */,
+				77F115E117D2EDC3009E002A /* ZGAppController.m */,
+				777DA25718CF55750092DEC9 /* ZGNavigationPost.h */,
+				777DA25818CF55750092DEC9 /* ZGNavigationPost.m */,
+				777DA25018CE97BE0092DEC9 /* ZGAppTerminationState.h */,
+				777DA25118CE97BE0092DEC9 /* ZGAppTerminationState.m */,
+				777DA25318CEA0390092DEC9 /* ZGAppPathUtilities.h */,
+				777DA25418CEA0390092DEC9 /* ZGAppPathUtilities.m */,
+				77F115B717D2EBCB009E002A /* MainMenu.xib */,
+				77179F6918CD34F100BCB6D0 /* ZGAppUpdaterController.h */,
+				77179F6A18CD34F100BCB6D0 /* ZGAppUpdaterController.m */,
+				771A3F4318CC0B0900D19676 /* ZGDocumentController.h */,
+				771A3F4418CC0B0900D19676 /* ZGDocumentController.m */,
+				772D1264190E0CE500800B1B /* Preferences */,
+				77CE28B417D538E300998F28 /* ZGLoggerWindowController.h */,
+				77CE28B517D538E300998F28 /* ZGLoggerWindowController.m */,
+				77CE28B617D538E300998F28 /* ZGLoggerWindowController.xib */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		77FF508316EAD0B00005915D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77F1162617D2EF3A009E002A /* ZGProcess.h */,
+				77F1162717D2EF3A009E002A /* ZGProcess.m */,
+				77F1162917D2EF46009E002A /* ZGVariableTypes.h */,
+				77F1162A17D2EF50009E002A /* ZGVariable.h */,
+				77F1162B17D2EF50009E002A /* ZGVariable.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77E2BBA318FD88A700E41FA0 /* Bit Slicer Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E2BBB418FD88A700E41FA0 /* Build configuration list for PBXNativeTarget "Bit Slicer Tests" */;
+			buildPhases = (
+				77E2BBA018FD88A700E41FA0 /* Sources */,
+				77E2BBA118FD88A700E41FA0 /* Frameworks */,
+				77E2BBA218FD88A700E41FA0 /* Resources */,
+				77E133FF19312AF100B5B799 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77E2BBB118FD88A700E41FA0 /* PBXTargetDependency */,
+			);
+			name = "Bit Slicer Tests";
+			productName = "Bit Slicer Tests";
+			productReference = 77E2BBA418FD88A700E41FA0 /* Bit Slicer Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D15AC270486D014006FF6A4 /* Bit Slicer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Bit Slicer" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				770EA827137B74F2007FB85A /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bit Slicer";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Bit Slicer";
+			productReference = 8D15AC370486D014006FF6A4 /* Bit Slicer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					77E2BBA318FD88A700E41FA0 = {
+						TestTargetID = 8D15AC270486D014006FF6A4;
+					};
+				};
+			};
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Bit Slicer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* Bit Slicer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* Bit Slicer */,
+				77E2BBA318FD88A700E41FA0 /* Bit Slicer Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77E2BBA218FD88A700E41FA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E2BBAC18FD88A700E41FA0 /* InfoPlist.strings in Resources */,
+				776B62E319312648004BF4A0 /* random_data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F115AA17D2E8AC009E002A /* yasm in Resources */,
+				779D56CB18F1BB0300FD5408 /* ZGMemoryDumpAllWindowController.xib in Resources */,
+				770FABB218490DB400C176B7 /* ZGEditAddressWindowController.xib in Resources */,
+				77FFC108186BDA3600122357 /* ZGWatchVariableWindowController.xib in Resources */,
+				77F115AE17D2EAE4009E002A /* bitslicerdocicon.iconset in Resources */,
+				77F115AF17D2EAE4009E002A /* bitslicericon.iconset in Resources */,
+				77DA9D0E1800639E00549A37 /* stepover.pdf in Resources */,
+				770FABAD1848354100C176B7 /* ZGEditValueWindowController.xib in Resources */,
+				77DA9D0B1800639E00549A37 /* continue.pdf in Resources */,
+				779D56C118F0775500FD5408 /* ZGMemoryProtectionWindowController.xib in Resources */,
+				772D121E190E008500800B1B /* ZGUpdatePreferencesViewController.xib in Resources */,
+				77DA9D0C1800639E00549A37 /* stepin.pdf in Resources */,
+				77FFC14D18711D2700122357 /* ZGEditDescriptionWindowController.xib in Resources */,
+				77F115B317D2EAFE009E002A /* Credits.rtf in Resources */,
+				77988F1C185804AC00476A37 /* container_filled.pdf in Resources */,
+				7743F9C618024CE400DBC19A /* python3.3 in Resources */,
+				77988F1A185803E800476A37 /* container.pdf in Resources */,
+				779D56C618F1284200FD5408 /* ZGMemoryDumpRangeWindowController.xib in Resources */,
+				770F283F18827D1B001B828C /* ZGBreakPointConditionViewController.xib in Resources */,
+				77F115B617D2EBAF009E002A /* InfoPlist.strings in Resources */,
+				773DE963190F4D130078E8F9 /* ZGScriptPreferencesViewController.xib in Resources */,
+				77DA9D0D1800639E00549A37 /* stepout.pdf in Resources */,
+				77F115B917D2EBCB009E002A /* MainMenu.xib in Resources */,
+				772D1269190E0D8600800B1B /* ZGHotKeyPreferencesViewController.xib in Resources */,
+				7730999E18660A29008B71DA /* ZGDocumentOptionsViewController.xib in Resources */,
+				77F115BC17D2EBD7009E002A /* Preferences.xib in Resources */,
+				77F115BF17D2EBE1009E002A /* MyDocument.xib in Resources */,
+				77F115C217D2EBEC009E002A /* ZGDebuggerController.xib in Resources */,
+				77CECE1818B8861C006D45E9 /* ZGRegistersViewController.xib in Resources */,
+				77F115C517D2EBF3009E002A /* ZGCodeInjectionWindowController.xib in Resources */,
+				770FABB81849160200C176B7 /* ZGEditSizeWindowController.xib in Resources */,
+				77F115C817D2EBFA009E002A /* ZGMemoryViewerController.xib in Resources */,
+				772C0F8318B95603009FFF72 /* ZGBacktraceViewController.xib in Resources */,
+				77F115CA17D2ECEE009E002A /* DataInspectorView.xib in Resources */,
+				77CE28B817D538E300998F28 /* ZGLoggerWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77E2BBA018FD88A700E41FA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E1340419312B2E00B5B799 /* ZGSearchFunctions.mm in Sources */,
+				77E1340319312B2800B5B799 /* ZGSearchProgress.m in Sources */,
+				77E1340219312B1F00B5B799 /* ZGSearchResults.m in Sources */,
+				77E1340119312B1700B5B799 /* ZGSearchData.m in Sources */,
+				77A5B03119189DA5002BEC69 /* NSArrayAdditions.m in Sources */,
+				77E2BBD618FD905B00E41FA0 /* ZGRegion.m in Sources */,
+				77E2BBD418FD901600E41FA0 /* ZGVirtualMemoryHelpers.m in Sources */,
+				77E2BBD318FD900C00E41FA0 /* ZGProcess.m in Sources */,
+				77E2BBD218FD900300E41FA0 /* ZGVariable.m in Sources */,
+				77E2BBD118FD8FF600E41FA0 /* ZGMachBinaryInfo.m in Sources */,
+				77E2BBD018FD8FE400E41FA0 /* ZGMachBinary.m in Sources */,
+				77E2BBB818FD8F9200E41FA0 /* ZGVirtualMemory.c in Sources */,
+				77E2BBB718FD8F6B00E41FA0 /* ZGCalculator.m in Sources */,
+				77E2BBB918FD8FC100E41FA0 /* _DDDecimalFunctions.m in Sources */,
+				77E2BBBA18FD8FC100E41FA0 /* _DDFunctionEvaluator.m in Sources */,
+				77E2BBBB18FD8FC100E41FA0 /* _DDFunctionExpression.m in Sources */,
+				77E2BBBC18FD8FC100E41FA0 /* _DDFunctionTerm.m in Sources */,
+				77A5B03019189CC9002BEC69 /* BinarySearchTest.m in Sources */,
+				77E2BBBD18FD8FC100E41FA0 /* _DDGroupTerm.m in Sources */,
+				77E2BBBE18FD8FC100E41FA0 /* _DDNumberExpression.m in Sources */,
+				77E2BBBF18FD8FC100E41FA0 /* _DDNumberTerm.m in Sources */,
+				77E2BBC018FD8FC100E41FA0 /* _DDOperatorTerm.m in Sources */,
+				77E2BBC118FD8FC100E41FA0 /* _DDParserTerm.m in Sources */,
+				77E2BBC218FD8FC100E41FA0 /* _DDPrecisionFunctionEvaluator.m in Sources */,
+				77E2BBC318FD8FC100E41FA0 /* _DDRewriteRule.m in Sources */,
+				77E2BBC418FD8FC100E41FA0 /* _DDVariableExpression.m in Sources */,
+				77E2BBC518FD8FC100E41FA0 /* _DDVariableTerm.m in Sources */,
+				77E2BBC618FD8FC100E41FA0 /* DDExpression.m in Sources */,
+				77E2BBC718FD8FC100E41FA0 /* DDExpressionRewriter.m in Sources */,
+				77E2BBC818FD8FC100E41FA0 /* DDMathEvaluator.m in Sources */,
+				77E2BBC918FD8FC100E41FA0 /* DDMathOperator.m in Sources */,
+				77E2BBCA18FD8FC100E41FA0 /* DDMathStringToken.m in Sources */,
+				77E2BBCB18FD8FC100E41FA0 /* DDMathStringTokenizer.m in Sources */,
+				77E2BBCC18FD8FC100E41FA0 /* DDParser.m in Sources */,
+				77E2BBCD18FD8FC100E41FA0 /* DDParserTypes.m in Sources */,
+				77E2BBCE18FD8FC100E41FA0 /* DDTypes.m in Sources */,
+				77E2BBCF18FD8FC100E41FA0 /* NSString+DDMathParsing.m in Sources */,
+				776B62E6193126B7004BF4A0 /* ByteArraySearchTest.mm in Sources */,
+				77E2BBAE18FD88A700E41FA0 /* LinearExpressionParsingTest.m in Sources */,
+				77E2BBD818FDC45F00E41FA0 /* PointerFunctionSubstitutionTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777DA25518CEA0390092DEC9 /* ZGAppPathUtilities.m in Sources */,
+				7798EED018C40B7F001120FB /* _DDVariableExpression.m in Sources */,
+				770FABB118490DB400C176B7 /* ZGEditAddressWindowController.m in Sources */,
+				77FFC14C18711D2700122357 /* ZGEditDescriptionWindowController.m in Sources */,
+				777DA25918CF55750092DEC9 /* ZGNavigationPost.m in Sources */,
+				770FAC031853C5D600C176B7 /* APTokenSearchField.m in Sources */,
+				772C0F7E18B88AFA009FFF72 /* ZGRegisterEntries.m in Sources */,
+				7798EED518C40B7F001120FB /* DDMathOperator.m in Sources */,
+				777C34B5187523D0005E64E1 /* ZGNoSmallSizeToolbar.m in Sources */,
+				7798EEC618C40B7F001120FB /* _DDFunctionEvaluator.m in Sources */,
+				773972F117D2E6AE00B958EE /* mach_excServer.c in Sources */,
+				773972F217D2E6AE00B958EE /* mach_excUser.c in Sources */,
+				773972F617D2E7B600B958EE /* DataInspectorRepresenter.m in Sources */,
+				77FFC107186BDA3600122357 /* ZGWatchVariableWindowController.m in Sources */,
+				7798EECF18C40B7F001120FB /* _DDRewriteRule.m in Sources */,
+				77F115A817D2E87E009E002A /* VDKQueue.m in Sources */,
+				77F115CD17D2ED64009E002A /* ZGMemoryViewerController.m in Sources */,
+				77F115D017D2ED74009E002A /* ZGVerticalScrollerRepresenter.m in Sources */,
+				77282123189E769B0044E4BC /* ZGStoredData.m in Sources */,
+				77F115D317D2ED82009E002A /* ZGStatusBarRepresenter.m in Sources */,
+				7798EED718C40B7F001120FB /* DDMathStringTokenizer.m in Sources */,
+				7798EECA18C40B7F001120FB /* _DDNumberExpression.m in Sources */,
+				770F284218832132001B828C /* ZGBreakPointCondition.m in Sources */,
+				77F115D617D2ED8E009E002A /* ZGLineCountingRepresenter.m in Sources */,
+				772D1268190E0D8600800B1B /* ZGHotKeyPreferencesViewController.m in Sources */,
+				771A931D18791A8D0098511D /* ZGTableView.m in Sources */,
+				77F115D917D2ED9D009E002A /* ZGLineCountingView.m in Sources */,
+				7798EEC718C40B7F001120FB /* _DDFunctionExpression.m in Sources */,
+				77607AB1185CD50100AC532B /* AGScopeBar.m in Sources */,
+				7798EED618C40B7F001120FB /* DDMathStringToken.m in Sources */,
+				77F115E217D2EDC3009E002A /* ZGAppController.m in Sources */,
+				7798EEDB18C40B7F001120FB /* NSString+DDMathParsing.m in Sources */,
+				7768064018B96A64007F2CAF /* ZGThreadStates.c in Sources */,
+				77F115E517D2EDCD009E002A /* ZGPreferencesController.m in Sources */,
+				77F115E817D2EDD9009E002A /* ZGProcessList.m in Sources */,
+				7798EED818C40B7F001120FB /* DDParser.m in Sources */,
+				77F115EB17D2EDE3009E002A /* ZGRunningProcess.m in Sources */,
+				77F115EE17D2EDEE009E002A /* ZGRunningProcessObserver.m in Sources */,
+				7798EECB18C40B7F001120FB /* _DDNumberTerm.m in Sources */,
+				77F115F117D2EDF9009E002A /* ZGDocument.m in Sources */,
+				7798EED418C40B7F001120FB /* DDMathEvaluator.m in Sources */,
+				77F115F417D2EE0B009E002A /* ZGDocumentData.m in Sources */,
+				770FAC0618542BFF00C176B7 /* ZGSearchToken.m in Sources */,
+				77F115F717D2EE28009E002A /* ZGDocumentWindowController.m in Sources */,
+				7798EEC518C40B7F001120FB /* _DDDecimalFunctions.m in Sources */,
+				77CECE1718B8861C006D45E9 /* ZGRegistersViewController.m in Sources */,
+				77F115FA17D2EE6F009E002A /* ZGDocumentSearchController.m in Sources */,
+				779D56CA18F1BB0300FD5408 /* ZGMemoryDumpAllWindowController.m in Sources */,
+				779C6CC318E7309B0076D647 /* ZGDebuggerUtilities.m in Sources */,
+				77F115FD17D2EE7E009E002A /* ZGDocumentTableController.m in Sources */,
+				7798EED118C40B7F001120FB /* _DDVariableTerm.m in Sources */,
+				770FABAC1848354100C176B7 /* ZGEditValueWindowController.m in Sources */,
+				77F1160317D2EEAA009E002A /* ZGVariableController.m in Sources */,
+				77F1160617D2EEB6009E002A /* ZGScriptManager.m in Sources */,
+				7798EED318C40B7F001120FB /* DDExpressionRewriter.m in Sources */,
+				77F1160917D2EEC0009E002A /* ZGPyVirtualMemory.m in Sources */,
+				7798EED918C40B7F001120FB /* DDParserTypes.m in Sources */,
+				773DE962190F4D130078E8F9 /* ZGScriptPreferencesViewController.m in Sources */,
+				77F1160C17D2EECA009E002A /* ZGPyScript.m in Sources */,
+				777DA25218CE97BE0092DEC9 /* ZGAppTerminationState.m in Sources */,
+				77F1160F17D2EED6009E002A /* ZGSearchData.m in Sources */,
+				7798EED218C40B7F001120FB /* DDExpression.m in Sources */,
+				7798EECE18C40B7F001120FB /* _DDPrecisionFunctionEvaluator.m in Sources */,
+				77282120189B854D0044E4BC /* ZGFunctionTypes.m in Sources */,
+				77F1161217D2EEE1009E002A /* ZGSearchProgress.m in Sources */,
+				77F1161517D2EEEC009E002A /* ZGSearchResults.m in Sources */,
+				7730999D18660A29008B71DA /* ZGDocumentOptionsViewController.m in Sources */,
+				7735B05518DAB3E8000371AA /* ZGMemoryNavigationWindowController.m in Sources */,
+				771A3F4518CC0B0900D19676 /* ZGDocumentController.m in Sources */,
+				77F1161817D2EEF6009E002A /* ZGSearchFunctions.mm in Sources */,
+				770136EA192309740072A192 /* ZGPyVMProtModule.m in Sources */,
+				77F1161F17D2EF14009E002A /* ZGVirtualMemory.c in Sources */,
+				77F1162217D2EF28009E002A /* ZGVirtualMemoryHelpers.m in Sources */,
+				77F1162517D2EF31009E002A /* ZGRegion.m in Sources */,
+				770FABB71849160200C176B7 /* ZGEditSizeWindowController.m in Sources */,
+				779D56C518F1284200FD5408 /* ZGMemoryDumpRangeWindowController.m in Sources */,
+				771A3F4818CCF32F00D19676 /* ZGHotKeyCenter.m in Sources */,
+				772D1217190D85CC00800B1B /* ZGHotKey.m in Sources */,
+				77282126189EA4520044E4BC /* ZGProcessTaskManager.m in Sources */,
+				77C19AB219158C190028F7F1 /* ZGPyKeyModModule.m in Sources */,
+				772D121D190E008500800B1B /* ZGUpdatePreferencesViewController.m in Sources */,
+				77F1162817D2EF3A009E002A /* ZGProcess.m in Sources */,
+				77F1162C17D2EF50009E002A /* ZGVariable.m in Sources */,
+				7768064318B9A36E007F2CAF /* ZGBacktrace.m in Sources */,
+				77F1162F17D2EF5A009E002A /* ZGUtilities.m in Sources */,
+				77F1163217D2EF62009E002A /* ZGCalculator.m in Sources */,
+				77F1163517D2EF6D009E002A /* NSStringAdditions.m in Sources */,
+				77F1163817D2EF76009E002A /* NSArrayAdditions.m in Sources */,
+				7798EEC818C40B7F001120FB /* _DDFunctionTerm.m in Sources */,
+				77F1163A17D2EF7F009E002A /* main.m in Sources */,
+				77F1163D17D2EF8E009E002A /* ZGMemoryWindowController.m in Sources */,
+				7798EEDA18C40B7F001120FB /* DDTypes.m in Sources */,
+				7789C37B189A570F00F1FDAF /* ZGMachBinaryInfo.m in Sources */,
+				770F283E18827D1B001B828C /* ZGBreakPointConditionViewController.m in Sources */,
+				7714194118AC7D8500600423 /* ZGMemoryDumpFunctions.m in Sources */,
+				77F1164017D2EF9E009E002A /* ZGDebuggerController.m in Sources */,
+				77F1164317D2EFB4009E002A /* ZGDisassemblerObject.m in Sources */,
+				77F1164617D2EFBD009E002A /* ZGInstruction.m in Sources */,
+				7798EEC918C40B7F001120FB /* _DDGroupTerm.m in Sources */,
+				77F1164917D2EFC8009E002A /* ZGBreakPointController.m in Sources */,
+				772C0F8218B95603009FFF72 /* ZGBacktraceViewController.m in Sources */,
+				7798EECD18C40B7F001120FB /* _DDParserTerm.m in Sources */,
+				77C19AAF19158ABF0028F7F1 /* ZGPyUtilities.m in Sources */,
+				77F1164D17D2EFDA009E002A /* ZGBreakPoint.m in Sources */,
+				77F1165017D2EFE4009E002A /* ZGDebugThread.m in Sources */,
+				77E9DBCE181F812E009F4982 /* ZGMachBinary.m in Sources */,
+				77F1165917D2F001009E002A /* ZGRegister.m in Sources */,
+				774B5EE61915361400D7AA69 /* ZGPyKeyCodeModule.m in Sources */,
+				7798EECC18C40B7F001120FB /* _DDOperatorTerm.m in Sources */,
+				77179F6B18CD34F100BCB6D0 /* ZGAppUpdaterController.m in Sources */,
+				77F1165C17D2F00A009E002A /* ZGCodeInjectionWindowController.m in Sources */,
+				77CE28B717D538E300998F28 /* ZGLoggerWindowController.m in Sources */,
+				77CE28BA17D580AD00998F28 /* ZGPyMainModule.m in Sources */,
+				779D56C018F0775500FD5408 /* ZGMemoryProtectionWindowController.m in Sources */,
+				777AD8C717D96F30003A5317 /* ZGPyDebugger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77E2BBB118FD88A700E41FA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D15AC270486D014006FF6A4 /* Bit Slicer */;
+			targetProxy = 77E2BBB018FD88A700E41FA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77E2BBAA18FD88A700E41FA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77E2BBAB18FD88A700E41FA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77F115B417D2EBAF009E002A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F115B517D2EBAF009E002A /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77F115B717D2EBCB009E002A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F115B817D2EBCB009E002A /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		77F115BA17D2EBD7009E002A /* Preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F115BB17D2EBD7009E002A /* English */,
+			);
+			name = Preferences.xib;
+			sourceTree = "<group>";
+		};
+		77F115BD17D2EBE1009E002A /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F115BE17D2EBE1009E002A /* English */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		77F115C017D2EBEC009E002A /* ZGDebuggerController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F115C117D2EBEC009E002A /* English */,
+			);
+			name = ZGDebuggerController.xib;
+			sourceTree = "<group>";
+		};
+		77F115C317D2EBF3009E002A /* ZGCodeInjectionWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F115C417D2EBF3009E002A /* English */,
+			);
+			name = ZGCodeInjectionWindowController.xib;
+			sourceTree = "<group>";
+		};
+		77F115C617D2EBFA009E002A /* ZGMemoryViewerController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F115C717D2EBFA009E002A /* English */,
+			);
+			name = ZGMemoryViewerController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77E2BBB218FD88A700E41FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bit Slicer.app/Contents/MacOS/Bit Slicer";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(PROJECT_DIR)/deps",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bit Slicer Tests/Bit Slicer Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				INFOPLIST_FILE = "Bit Slicer Tests/Bit Slicer Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = "-D_BSDEBUG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-padded",
+					"-Wno-empty-translation-unit",
+					"-Wno-undef",
+					"-Wno-gnu",
+					"-Wno-pointer-arith",
+					"-Wno-objc-interface-ivars",
+					"-Wno-assign-enum",
+					"-Wno-direct-ivar-access",
+					"-Wno-unused-macros",
+					"-Wno-semicolon-before-method-body",
+					"-Wno-receiver-is-weak",
+					"-Wno-missing-prototypes",
+					"-Wno-selector",
+					"-Wno-c++11-long-long",
+					"-Wno-auto-import",
+					"-Wno-variadic-macros",
+					"-Wno-incomplete-module",
+					"-Wno-c++98-compat-pedantic",
+					"-Werror",
+				);
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		77E2BBB318FD88A700E41FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bit Slicer.app/Contents/MacOS/Bit Slicer";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(PROJECT_DIR)/deps",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bit Slicer Tests/Bit Slicer Tests-Prefix.pch";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				INFOPLIST_FILE = "Bit Slicer Tests/Bit Slicer Tests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = "-D_BSDEBUG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-padded",
+					"-Wno-empty-translation-unit",
+					"-Wno-undef",
+					"-Wno-gnu",
+					"-Wno-pointer-arith",
+					"-Wno-objc-interface-ivars",
+					"-Wno-assign-enum",
+					"-Wno-direct-ivar-access",
+					"-Wno-unused-macros",
+					"-Wno-semicolon-before-method-body",
+					"-Wno-receiver-is-weak",
+					"-Wno-missing-prototypes",
+					"-Wno-selector",
+					"-Wno-c++11-long-long",
+					"-Wno-auto-import",
+					"-Wno-variadic-macros",
+					"-Wno-incomplete-module",
+					"-Wno-c++98-compat-pedantic",
+					"-Werror",
+				);
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				CODE_SIGN_IDENTITY = bitslicer_codesign;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(SRCROOT)",
+					"$(SRCROOT)/deps",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bit Slicer/Bit_Slicer_Prefix.pch";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Bit Slicer/Bit_Slicer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(SRCROOT)/deps",
+					"$(SRCROOT)/deps/python/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CFLAGS = "-D_BSDEBUG";
+				PRODUCT_NAME = "Bit Slicer";
+				PROVISIONING_PROFILE = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-padded",
+					"-Wno-empty-translation-unit",
+					"-Wno-undef",
+					"-Wno-gnu",
+					"-Wno-pointer-arith",
+					"-Wno-objc-interface-ivars",
+					"-Wno-assign-enum",
+					"-Wno-direct-ivar-access",
+					"-Wno-unused-macros",
+					"-Wno-semicolon-before-method-body",
+					"-Wno-receiver-is-weak",
+					"-Wno-missing-prototypes",
+					"-Wno-selector",
+					"-Wno-c++11-long-long",
+					"-Wno-variadic-macros",
+					"-Werror",
+				);
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+					"$(SRCROOT)",
+					"$(SRCROOT)/deps",
+				);
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bit Slicer/Bit_Slicer_Prefix.pch";
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Bit Slicer/Bit_Slicer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(SRCROOT)/deps",
+					"$(SRCROOT)/deps/python/lib",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "Bit Slicer";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+					"-Wno-padded",
+					"-Wno-empty-translation-unit",
+					"-Wno-undef",
+					"-Wno-gnu",
+					"-Wno-pointer-arith",
+					"-Wno-objc-interface-ivars",
+					"-Wno-assign-enum",
+					"-Wno-direct-ivar-access",
+					"-Wno-unused-macros",
+					"-Wno-semicolon-before-method-body",
+					"-Wno-receiver-is-weak",
+					"-Wno-missing-prototypes",
+					"-Wno-selector",
+					"-Wno-c++11-long-long",
+					"-Wno-variadic-macros",
+					"-Werror",
+				);
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = bitslicer_codesign;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Mayur Pawashe";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77E2BBB418FD88A700E41FA0 /* Build configuration list for PBXNativeTarget "Bit Slicer Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77E2BBB218FD88A700E41FA0 /* Debug */,
+				77E2BBB318FD88A700E41FA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Bit Slicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Bit Slicer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

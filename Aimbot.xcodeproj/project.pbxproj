@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		501A97A9180E1C3F00B89214 /* ZGVirtualMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 501A97A4180E1C3F00B89214 /* ZGVirtualMemory.c */; };
+		501A97AA180E1C3F00B89214 /* ZGVirtualMemoryHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 501A97A6180E1C3F00B89214 /* ZGVirtualMemoryHelpers.m */; };
+		501A97AB180E1C3F00B89214 /* ZGRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 501A97A8180E1C3F00B89214 /* ZGRegion.m */; };
+		501A97AE180E1C5F00B89214 /* ZGProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 501A97AD180E1C5F00B89214 /* ZGProcess.m */; };
+		501D4E97180E1727008C90F3 /* ZGProcessList.m in Sources */ = {isa = PBXBuildFile; fileRef = 501D4E92180E1727008C90F3 /* ZGProcessList.m */; };
+		501D4E98180E1727008C90F3 /* ZGRunningProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 501D4E94180E1727008C90F3 /* ZGRunningProcess.m */; };
+		501D4E99180E1727008C90F3 /* ZGRunningProcessObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 501D4E96180E1727008C90F3 /* ZGRunningProcessObserver.m */; };
+		505C85061816219000602B5A /* PlayerSelectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 505C85051816219000602B5A /* PlayerSelectionManager.m */; };
+		507AF48C180E5D2800F5D002 /* StaticPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 507AF48B180E5D2800F5D002 /* StaticPlayerManager.m */; };
+		507AF490180E5F9900F5D002 /* StaticPlayerHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 507AF48F180E5F9900F5D002 /* StaticPlayerHeader.m */; };
+		507AF493180E68E600F5D002 /* StaticPlayerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 507AF492180E68E600F5D002 /* StaticPlayerData.m */; };
+		507AF499180E750500F5D002 /* DynamicPlayerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 507AF498180E750500F5D002 /* DynamicPlayerData.m */; };
 		50A724AA180CFB8700EECCDF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A724A9180CFB8700EECCDF /* Cocoa.framework */; };
 		50A724B4180CFB8700EECCDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50A724B2180CFB8700EECCDF /* InfoPlist.strings */; };
 		50A724B6180CFB8700EECCDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A724B5180CFB8700EECCDF /* main.m */; };
@@ -31,6 +43,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		501A97A2180E1C3F00B89214 /* ZGMemoryTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGMemoryTypes.h; path = "Bit-Slicer/Bit Slicer/ZGMemoryTypes.h"; sourceTree = "<group>"; };
+		501A97A3180E1C3F00B89214 /* ZGVirtualMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGVirtualMemory.h; path = "Bit-Slicer/Bit Slicer/ZGVirtualMemory.h"; sourceTree = "<group>"; };
+		501A97A4180E1C3F00B89214 /* ZGVirtualMemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ZGVirtualMemory.c; path = "Bit-Slicer/Bit Slicer/ZGVirtualMemory.c"; sourceTree = "<group>"; };
+		501A97A5180E1C3F00B89214 /* ZGVirtualMemoryHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGVirtualMemoryHelpers.h; path = "Bit-Slicer/Bit Slicer/ZGVirtualMemoryHelpers.h"; sourceTree = "<group>"; };
+		501A97A6180E1C3F00B89214 /* ZGVirtualMemoryHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGVirtualMemoryHelpers.m; path = "Bit-Slicer/Bit Slicer/ZGVirtualMemoryHelpers.m"; sourceTree = "<group>"; };
+		501A97A7180E1C3F00B89214 /* ZGRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGRegion.h; path = "Bit-Slicer/Bit Slicer/ZGRegion.h"; sourceTree = "<group>"; };
+		501A97A8180E1C3F00B89214 /* ZGRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGRegion.m; path = "Bit-Slicer/Bit Slicer/ZGRegion.m"; sourceTree = "<group>"; };
+		501A97AC180E1C5F00B89214 /* ZGProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGProcess.h; path = "Bit-Slicer/Bit Slicer/ZGProcess.h"; sourceTree = "<group>"; };
+		501A97AD180E1C5F00B89214 /* ZGProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGProcess.m; path = "Bit-Slicer/Bit Slicer/ZGProcess.m"; sourceTree = "<group>"; };
+		501D4E92180E1727008C90F3 /* ZGProcessList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGProcessList.m; path = "Bit-Slicer/Bit Slicer/ZGProcessList.m"; sourceTree = "<group>"; };
+		501D4E93180E1727008C90F3 /* ZGRunningProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGRunningProcess.h; path = "Bit-Slicer/Bit Slicer/ZGRunningProcess.h"; sourceTree = "<group>"; };
+		501D4E94180E1727008C90F3 /* ZGRunningProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGRunningProcess.m; path = "Bit-Slicer/Bit Slicer/ZGRunningProcess.m"; sourceTree = "<group>"; };
+		501D4E95180E1727008C90F3 /* ZGRunningProcessObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGRunningProcessObserver.h; path = "Bit-Slicer/Bit Slicer/ZGRunningProcessObserver.h"; sourceTree = "<group>"; };
+		501D4E96180E1727008C90F3 /* ZGRunningProcessObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGRunningProcessObserver.m; path = "Bit-Slicer/Bit Slicer/ZGRunningProcessObserver.m"; sourceTree = "<group>"; };
+		505C85041816219000602B5A /* PlayerSelectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerSelectionManager.h; sourceTree = "<group>"; };
+		505C85051816219000602B5A /* PlayerSelectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerSelectionManager.m; sourceTree = "<group>"; };
+		507AF48A180E5D2800F5D002 /* StaticPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticPlayerManager.h; sourceTree = "<group>"; };
+		507AF48B180E5D2800F5D002 /* StaticPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticPlayerManager.m; sourceTree = "<group>"; };
+		507AF48E180E5F9900F5D002 /* StaticPlayerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticPlayerHeader.h; sourceTree = "<group>"; };
+		507AF48F180E5F9900F5D002 /* StaticPlayerHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticPlayerHeader.m; sourceTree = "<group>"; };
+		507AF491180E68E600F5D002 /* StaticPlayerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticPlayerData.h; sourceTree = "<group>"; };
+		507AF492180E68E600F5D002 /* StaticPlayerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticPlayerData.m; sourceTree = "<group>"; };
+		507AF497180E750500F5D002 /* DynamicPlayerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicPlayerData.h; sourceTree = "<group>"; };
+		507AF498180E750500F5D002 /* DynamicPlayerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicPlayerData.m; sourceTree = "<group>"; };
 		50A724A6180CFB8700EECCDF /* Aimbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aimbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A724A9180CFB8700EECCDF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		50A724AC180CFB8700EECCDF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +86,8 @@
 		50A724CF180CFB8800EECCDF /* AimbotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AimbotTests-Info.plist"; sourceTree = "<group>"; };
 		50A724D1180CFB8800EECCDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50A724D3180CFB8800EECCDF /* AimbotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AimbotTests.m; sourceTree = "<group>"; };
+		50D3ABC41960A79200DBA190 /* ZGProcessList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZGProcessList.h; path = "Bit-Slicer/Bit Slicer/ZGProcessList.h"; sourceTree = "<group>"; };
+		50D3B0131960AB5400DBA190 /* CoreSymbolication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreSymbolication.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +111,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		501D4E90180E171D008C90F3 /* ProcessList */ = {
+			isa = PBXGroup;
+			children = (
+				50D3ABC41960A79200DBA190 /* ZGProcessList.h */,
+				501D4E92180E1727008C90F3 /* ZGProcessList.m */,
+				501D4E93180E1727008C90F3 /* ZGRunningProcess.h */,
+				501D4E94180E1727008C90F3 /* ZGRunningProcess.m */,
+				501D4E95180E1727008C90F3 /* ZGRunningProcessObserver.h */,
+				501D4E96180E1727008C90F3 /* ZGRunningProcessObserver.m */,
+			);
+			name = ProcessList;
+			sourceTree = "<group>";
+		};
+		507AF489180E5CCF00F5D002 /* Memory Structures */ = {
+			isa = PBXGroup;
+			children = (
+				507AF48A180E5D2800F5D002 /* StaticPlayerManager.h */,
+				507AF48B180E5D2800F5D002 /* StaticPlayerManager.m */,
+				507AF48E180E5F9900F5D002 /* StaticPlayerHeader.h */,
+				507AF48F180E5F9900F5D002 /* StaticPlayerHeader.m */,
+				507AF491180E68E600F5D002 /* StaticPlayerData.h */,
+				507AF492180E68E600F5D002 /* StaticPlayerData.m */,
+				507AF497180E750500F5D002 /* DynamicPlayerData.h */,
+				507AF498180E750500F5D002 /* DynamicPlayerData.m */,
+				505C85041816219000602B5A /* PlayerSelectionManager.h */,
+				505C85051816219000602B5A /* PlayerSelectionManager.m */,
+			);
+			name = "Memory Structures";
+			sourceTree = "<group>";
+		};
 		50A7249D180CFB8700EECCDF = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +183,9 @@
 		50A724AF180CFB8700EECCDF /* Aimbot */ = {
 			isa = PBXGroup;
 			children = (
+				507AF489180E5CCF00F5D002 /* Memory Structures */,
+				501D4E90180E171D008C90F3 /* ProcessList */,
+				50A724DD180CFBD500EECCDF /* Virtual Memory */,
 				50A724BB180CFB8700EECCDF /* AppDelegate.h */,
 				50A724BC180CFB8700EECCDF /* AppDelegate.m */,
 				50A724BE180CFB8700EECCDF /* MainMenu.xib */,
@@ -152,6 +223,32 @@
 				50A724D0180CFB8800EECCDF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50A724DD180CFBD500EECCDF /* Virtual Memory */ = {
+			isa = PBXGroup;
+			children = (
+				50D3B0121960AB5400DBA190 /* CoreSymbolication */,
+				501A97AC180E1C5F00B89214 /* ZGProcess.h */,
+				501A97AD180E1C5F00B89214 /* ZGProcess.m */,
+				501A97A2180E1C3F00B89214 /* ZGMemoryTypes.h */,
+				501A97A3180E1C3F00B89214 /* ZGVirtualMemory.h */,
+				501A97A4180E1C3F00B89214 /* ZGVirtualMemory.c */,
+				501A97A5180E1C3F00B89214 /* ZGVirtualMemoryHelpers.h */,
+				501A97A6180E1C3F00B89214 /* ZGVirtualMemoryHelpers.m */,
+				501A97A7180E1C3F00B89214 /* ZGRegion.h */,
+				501A97A8180E1C3F00B89214 /* ZGRegion.m */,
+			);
+			name = "Virtual Memory";
+			sourceTree = "<group>";
+		};
+		50D3B0121960AB5400DBA190 /* CoreSymbolication */ = {
+			isa = PBXGroup;
+			children = (
+				50D3B0131960AB5400DBA190 /* CoreSymbolication.h */,
+			);
+			name = CoreSymbolication;
+			path = "Bit-Slicer/deps/CoreSymbolication";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,8 +349,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				501D4E98180E1727008C90F3 /* ZGRunningProcess.m in Sources */,
+				507AF499180E750500F5D002 /* DynamicPlayerData.m in Sources */,
+				501D4E97180E1727008C90F3 /* ZGProcessList.m in Sources */,
+				501A97AB180E1C3F00B89214 /* ZGRegion.m in Sources */,
+				501A97AA180E1C3F00B89214 /* ZGVirtualMemoryHelpers.m in Sources */,
+				507AF493180E68E600F5D002 /* StaticPlayerData.m in Sources */,
 				50A724BD180CFB8700EECCDF /* AppDelegate.m in Sources */,
+				501A97A9180E1C3F00B89214 /* ZGVirtualMemory.c in Sources */,
 				50A724B6180CFB8700EECCDF /* main.m in Sources */,
+				501A97AE180E1C5F00B89214 /* ZGProcess.m in Sources */,
+				507AF490180E5F9900F5D002 /* StaticPlayerHeader.m in Sources */,
+				505C85061816219000602B5A /* PlayerSelectionManager.m in Sources */,
+				507AF48C180E5D2800F5D002 /* StaticPlayerManager.m in Sources */,
+				501D4E99180E1727008C90F3 /* ZGRunningProcessObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,11 +492,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = bitslicer_codesign;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Aimbot/Bit-Slicer/deps",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Aimbot/Aimbot-Prefix.pch";
 				INFOPLIST_FILE = "Aimbot/Aimbot-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Aimbot/Bit-Slicer/deps",
+					"$(PROJECT_DIR)/Aimbot/Bit-Slicer/deps/python/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,11 +516,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = bitslicer_codesign;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Aimbot/Bit-Slicer/deps",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Aimbot/Aimbot-Prefix.pch";
 				INFOPLIST_FILE = "Aimbot/Aimbot-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Aimbot/Bit-Slicer/deps",
+					"$(PROJECT_DIR)/Aimbot/Bit-Slicer/deps/python/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -464,6 +595,7 @@
 				50A724D9180CFB8800EECCDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50A724DA180CFB8800EECCDF /* Build configuration list for PBXNativeTarget "AimbotTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +604,7 @@
 				50A724DC180CFB8800EECCDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

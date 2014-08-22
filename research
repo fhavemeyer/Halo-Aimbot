@@ -1,0 +1,66 @@
+0.257615
+
+6.221330
+
+Theta:
+
+0x402AD4B4 - mouse azimuthal
+
+0x107742 - F3 0F 11 4F 0C
+0x107553 - F3 0F 11 47 0C
+
+nop this:
+0x107742
+
+Phi:
+0x402AD4B8 - mouse altitude
+
+0x107A6E - nop this (0x9090909090) : Original: F3 0F 11 4F 10
+0x107A86 - nop this (0x9090909090) : Original: F3 0F 11 47 10
+
+Static players Header:
+
+start offset: 0x402AAF90 (0x20 long)
+MaxSlot: 
+
+Offset to x-coord from start of static player struct: 0xF8
+
+
+Offset to object num from start of static player struct: 0x34
+Offset to object ID from start of static player struct: 0x36
+
+Dynamic Object Array:
+Start: 0x400506E8
+Size: 0xC
+Offset Loc: 0x400506E8 + 0xC * ObjectNumber + 0x8
+
+Dynamic Player Object:
+xCoordAddress = playerAddress + 0x5C
+yCoordAddress = xCoordAddress + 0x4
+zCoordAddress = zCoordAddress + 0x8
+
+xVelocityAddress = xCoordAddress + 0xC
+yVelocityAddress = xCoordAddress + 0x10
+zVelocityAddress = zCoordAddress + 0x14
+
+isCrouching = playerAddress + 0x208 
+	=> isCrouching == 0, standing
+	=> isCrouching == 1, crouching
+	=> isCrouching == 2, jumping
+
+Static Player Struct Header:
+First Player Structure Address: 0x402AAFC8
+
+Static Player Struct:
+dynamicObjectNumberAddress = playerStructureAddress + 0x34
+dynamicObjectIDAddress = playerStructureAddres + 0x36
+
+playerObjectID = readUInt16(dynamicObjectIDAddress)
+if (playerObjectID != 0 && playerObjectID != 0xFFFF) it should be a real player
+
+SO!
+
+For each player in the static structure, 
+dynamicPlayerLookupAddress = 0x400506E8 + 0xC * readUInt16(dynamicObjectNumberAddress) 
+dynamicPlayerID = readUInt16(dynamicPlayerLookupAddress)
+if (dynamicPlayerID == readUInt16(dynamicObjectIDAddress)) it's all good
